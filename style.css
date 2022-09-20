@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+:root {
+    --blue: #12263e;
+    --light-blue: #374f63;
+    --green: #50ae7c;
+    --light-green: #8ddfb3;
+    --white: #ffffff;
+    --hover-white: #ffffff2c;
+    --yellow: #fed721;
+    --light-yellow: #fbe16d;
+    --black: #000000;
+}
+
+body {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    margin: auto;
+    font-size: 1em;
+    color: var(--white);
+}
+
+::selection {
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+.color-1 {
+    background-color: var(--green);
+    color: var(--blue);
+}
+
+.color-2 {
+    background-color: var(--blue);
+    color: var(--green)
+}
+
+.color-3 {
+    background-color: var(--blue);
+    color: var(--light-yellow);
+}
+
+.color-2 a {
+    color: var(--light-green);
+}
+
+a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--light-yellow);
+}
+
+.nav {
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.foot-nav {
+    padding: 3em;
+    text-align: center;
+}
+
+.nav-content-list {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-heading {
+    font-size: 1.7em;
+    text-align: left;
+}
+
+.nav-content-link {
+    text-align: center;
+}
+
+.nav-content-item {
+    list-style-type: none;
+    display: inline;
+    padding-left: 1em;
+    padding-right: .7em;
+    
+}
+
+@media (max-width: 800px) {
+    .nav-content-item {
+        display: list-item;
+        text-align: right;
+    }
+    .nav, .foot-nav {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.nav-content-link {
+    text-decoration: none;
+}
+
+.header {
+    padding: 3em;
+}
+
+.header-header {
+    font-size: 4em;
+}
+
+.catchphrase {
+    padding: 1.15em;
+    font-size: 1.6em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+}
+
+.container {
+    padding: 1em;
+}
+
+.container-heading {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.container-content {
+    margin: 2em;
+}
+
+#kontakt {
+    grid-template-columns: 2fr 3fr;
+}
+
+.contacts-item {
+    list-style-type: none;
+    display: inline-block;
+    margin: .5em;
+    padding: .4em;
+    border: solid var(--light-green) 4px;
+    border-radius: 1.3em;
+}
+
+.contact-name {
+    font-size: 1.1em;
+}
+
+.contact-about-item {
+    list-style-type: none;
+}
+
+.contact-about-list {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    letter-spacing: 0.02em;
+    line-height: 1.3;
+    word-spacing: 0.05em;
+}
+
+.footer .nav-content p {
+    color: var(--light-blue);
+}
+
+hr {
+    background-color: #fed721;
+    height: 2px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2, h3, h4 {
+    color: var(--light-yellow);
+}
+
+#registrace .container-heading {
+    display: block;
+    width: 23em;
+    margin: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid var(--light-blue) 4px;
+    border-radius: 1.3em;
+}
+
+#registrace .container-heading:hover {
+    background-color: var(--hover-white);
+}
+
+#registrace a:hover {
+    text-decoration: none;
+}
+
+.main-partners-list, .partners-list {
+    padding: 0;
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.main-partners-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.partners-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-partners-item, .partners-item {
+    list-style-type: none;
+    display: block;
+    margin: auto;
+}
+
+.main-partner-logo img {
+    width: 15em;
+    margin: 1em;
+}
+
+.partner-logo img {
+    width: 6em;
+    margin: .8em;
+}
+
+.main-partner-logo img, .partner-logo img {
+    filter: grayscale(76%);
+}
+
+.main-partner-logo img:hover, .partner-logo img:hover {
+    filter: grayscale(0%)
+}
