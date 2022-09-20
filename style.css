@@ -89,16 +89,6 @@ a:active {
     
 }
 
-@media (max-width: 800px) {
-    .nav-content-item {
-        display: list-item;
-        text-align: right;
-    }
-    .nav, .foot-nav {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
 .nav-content-link {
     text-decoration: none;
 }
@@ -239,6 +229,19 @@ h2, h3, h4 {
     filter: grayscale(76%);
 }
 
-.main-partner-logo img:hover, .partner-logo img:hover {
+.main-partner-logo img:hover, .partner-logo img:hover, .main-partner-logo:active, .partner-logo:active {
     filter: grayscale(0%)
+}
+
+@media (max-width: 800px) {
+    .nav-content-item {
+        display: list-item;
+        text-align: right;
+    }
+    .nav, .foot-nav {
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-partners-item, .partners-item {
+        display: list-item;
+    }
 }
