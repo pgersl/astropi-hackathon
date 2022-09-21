@@ -235,7 +235,7 @@ h2, h3, h4 {
 }
 
 .main-partner-logo img, .partner-logo img {
-    filter: grayscale(76%);
+    filter: grayscale(100%);
 }
 
 .main-partner-logo img:hover, .partner-logo img:hover {
