@@ -7,9 +7,7 @@
     --light-green: #8ddfb3;
     --white: #ffffff;
     --hover-white: #ffffff2c;
-    --yellow: #fed721;
-    --light-yellow: #fbe16d;
-    --black: #000000;
+    --yellow: #fbe16d;
 }
 
 body {
@@ -40,7 +38,7 @@ body {
 
 .color-3 {
     background-color: var(--blue);
-    color: var(--light-yellow);
+    color: var(--yellow);
 }
 
 .color-2 a {
@@ -57,7 +55,7 @@ a:hover {
 }
 
 a:active {
-    color: var(--light-yellow);
+    color: var(--yellow);
 }
 
 .nav {
@@ -171,7 +169,7 @@ p {
 }
 
 hr {
-    background-color: #fed721;
+    background-color: var(--yellow);
     height: 2px;
     border: none;
     padding: 0;
@@ -179,7 +177,7 @@ hr {
 }
 
 h2, h3, h4 {
-    color: var(--light-yellow);
+    color: var(--yellow);
 }
 
 #registrace .container-heading {
