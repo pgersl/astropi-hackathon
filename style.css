@@ -66,11 +66,6 @@ a:active {
     grid-template-columns: 1fr 2fr;
 }
 
-.foot-nav {
-    padding: 3em;
-    text-align: center;
-}
-
 .nav-content-list {
     padding: 0;
     margin: 0;
@@ -81,8 +76,13 @@ a:active {
     text-align: left;
 }
 
+.nav-content {
+    text-align: right;
+}
+
 .nav-content-link {
     text-align: center;
+    text-decoration: none;
 }
 
 .nav-content-item {
@@ -93,9 +93,14 @@ a:active {
     
 }
 
-.nav-content-link {
-    text-decoration: none;
+.foot-nav {
+    padding: 3em;
 }
+
+.foot-nav .nav-content {
+    text-align: center;
+}
+
 
 .header {
     padding: 3em;
@@ -238,7 +243,15 @@ h2, h3, h4 {
 }
 
 .main-partner-logo:active, .partner-logo:active {
-    filter: saturate(40%);
+    filter: invert(70%);
+}
+
+.header-logo img {
+    width: 12em;
+}
+
+.header-logo {
+    text-align: right;
 }
 
 @media (max-width: 750px) {
@@ -260,6 +273,12 @@ h2, h3, h4 {
     }
     #astropi-challenge {
         display: block;
+    }
+}
+
+@media (max-width: 690px) {
+    .header-logo img {
+        width: 8em;
     }
 }
 
