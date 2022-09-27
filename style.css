@@ -150,6 +150,7 @@ a:active {
     padding: .4em;
     border: solid var(--light-green) 4px;
     border-radius: 1.3em;
+    width: 100%;
 }
 
 .contact-name {
@@ -279,6 +280,10 @@ h2, h3, h4 {
     #astropi-challenge {
         display: block;
     }
+    .contacts {
+        display: block;
+        font-size: 80%;
+    }
 }
 
 @media (max-width: 690px) {
@@ -302,5 +307,8 @@ h2, h3, h4 {
     }
     .header {
         font-size: .6em;
+    }
+    .contacts {
+        font-size: 70%;
     }
 }
