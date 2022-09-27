@@ -231,25 +231,25 @@ h2, h3, h4 {
 }
 
 .main-partner-logo img {
-    width: 15em;
+    width: 24em;
     margin: 1em;
 }
 
 .partner-logo img {
-    width: 6em;
+    width: 9em;
     margin: .8em;
 }
 
 .main-partner-logo img, .partner-logo img {
-    filter: grayscale(100%);
+    filter: brightness(0) saturate(100%) invert(86%) sepia(69%) saturate(271%) hue-rotate(70deg) brightness(93%) contrast(88%);
 }
 
 .main-partner-logo img:hover, .partner-logo img:hover {
-    filter: grayscale(0%)
+    filter: none;
 }
 
 .main-partner-logo:active, .partner-logo:active {
-    filter: invert(70%);
+    filter: brightness(0) saturate(100%) invert(95%) sepia(71%) saturate(924%) hue-rotate(320deg) brightness(106%) contrast(97%);
 }
 
 .header-logo img {
@@ -260,6 +260,22 @@ h2, h3, h4 {
     text-align: right;
 }
 
+@media (max-width: 1050px) {
+    .contacts {
+        display: block;
+    }
+    .main-partners-list {
+        display: list-item;
+        text-align: center;
+    }
+    .partner-logo img {
+        width: 6em;
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
 @media (max-width: 750px) {
     .nav-content-item {
         display: list-item;
@@ -268,12 +284,6 @@ h2, h3, h4 {
     .nav, .foot-nav {
         grid-template-columns: 1fr 1fr;
     }
-    ul {
-        list-style-type: none;
-    }
-    .main-partners-list {
-        display: list-item;
-    }
     .partners-list {
         grid-template-columns: 1fr 1fr;
     }
@@ -281,8 +291,7 @@ h2, h3, h4 {
         display: block;
     }
     .contacts {
-        display: block;
-        font-size: 80%;
+        font-size: 90%;
     }
 }
 
@@ -290,17 +299,21 @@ h2, h3, h4 {
     .header-logo img {
         width: 8em;
     }
+    .main-partner-logo img {
+        width: 13em;
+    }
 }
 
 @media (max-width: 490px) {
     .partners-list {
         display: list-item;
+        text-align: center;
     }
     .main-partner-logo img {
         width: 9em;
     }
     .partner-logo img {
-        width: 4em;
+        width: 5em;
     }
     #registrace .container-heading {
         width: 15em;
