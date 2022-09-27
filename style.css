@@ -22,7 +22,7 @@ body {
 }
 
 ::selection {
-    color: var(--black);
+    color: var(--blue);
     background-color: var(--yellow);
 }
 
@@ -101,11 +101,13 @@ a:active {
 
 
 .header {
-    padding: 3em;
+    padding: 1.5em;
 }
 
 .header-header {
     font-size: 4em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .catchphrase {
@@ -119,7 +121,7 @@ a:active {
 }
 
 .container {
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .container-heading {
@@ -134,6 +136,11 @@ a:active {
 
 #kontakt {
     grid-template-columns: 2fr 3fr;
+}
+
+.contacts {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .contacts-item {
