@@ -29,6 +29,10 @@ h2 {
     font-size: 1.5em;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     margin: auto;
