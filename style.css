@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
     --blue: #12263e;
@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Reem Kufi Ink', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: auto;
     font-size: 1em;
     color: var(--white);
