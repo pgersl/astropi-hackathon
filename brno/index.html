@@ -205,6 +205,7 @@
 
             #main-partners, #other-partners {
                 padding: var(--spacer);
+                max-width: 80vw;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -261,10 +262,15 @@
                 margin-bottom: 1em;
             }
 
+            #kontakty {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
             .kontakt {
                 margin: 1em;
                 padding: .5em;
-                width: 100%;
+                width: fit-content 100%;
                 border-style: solid;
                 border-color: var(--clr3);
                 border-radius: 1.1em;
@@ -287,6 +293,9 @@
                 #nav li {
                     font-size: .8em;
                 }
+                #kontakty {
+                    grid-template-columns: 1fr 1fr;
+                }
             }           
 
             @media (max-width: 590px) {
@@ -301,6 +310,11 @@
             @media (max-width: 450px) {
                 #nav li {
                     font-size: .7em;
+                }
+                #kontakty {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                 }
             }
 
@@ -366,6 +380,11 @@
                 Vyzkoušíš si práci pod tlakem v týmu, prezentování před publikem, obhajobu projektu a navíc si užiješ spoustu zábavy při přespání!&nbsp;
                 Ve dvou kategoriích (mladší a starší) soutěžíme o <strong>úžasné ceny</strong> - volné vstupy do VIDA! Science centra, předplatné časopisu Vesmír.cz, tour po SAB Aerospace a v neposladní řadě o plnou tašku věcí z Honeywellu!
             </p>
+            <p>
+                Na akci se zároveň nemusíš vůbec připravovat!&nbsp;
+                Na vymýšlení experimentu budeš mít času dost, celou soutěž AstroPi Challenge ti dopodrobna představíme.
+                Na akci se zatím nebude ani programovat, ale s možnostmi programovacího jazyka Python ti určitě někdo poradí. 
+            </p>
         </section>
         <section id="partners">
             <div id="main-partners">
@@ -405,6 +424,18 @@
                     </a>
                     <a href="https://vida.cz/" target="_blank">
                         <img src="/imgs/vida.png">
+                    </a>
+                    <a href="https://www.planetum.cz/" target="_blank">
+                        <img src="/imgs/planetum.png">
+                    </a>
+                    <a href="https://www.muni.cz/" target="_blank">
+                        <img src="/imgs/muni.png">
+                    </a>
+                    <a href="https://www.vut.cz/" target="_blank">
+                        <img src="/imgs/vut.png">
+                    </a>
+                    <a href="https://mendelu.cz/?psn=0" target="_blank">
+                        <img src="/imgs/mendelu.png">
                     </a>
                 </div>
             </div>
