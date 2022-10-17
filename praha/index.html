@@ -25,6 +25,7 @@
                 --clr6: #1fc3f3;
                 --clr7: #2c8aa7;
                 --clr8: #eefafd;
+                --clr9: #f34f1f;
             
                 --spacer: 4em 0;
             }
@@ -169,14 +170,14 @@
                 margin: 1em 0 1em 0;
                 padding: .5em 1.3em;
                 border-radius: 1.1em;
-                text-decoration: none;
+                text-decoration: line-through;
                 color: var(--clr4);
-                background-color: var(--clr6);
+                background-color: var(--clr9);
             }
 
             #reg a:hover {
                 color: var(--clr4);
-                background-color: var(--clr7);
+                background-color: var(--clr5);
             }
 
             /*Challenge*/
@@ -252,6 +253,18 @@
                 margin-bottom: auto;
             }
 
+            /*End*/
+            
+            #end {
+                width: 100vw;
+                text-align: center;
+                padding: 1em 0;
+                color: var(--clr4);
+                background-color: var(--clr9);
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+
             /*Footer*/          
 
             footer {
@@ -287,6 +300,9 @@
     </head>
     <body>
         <header>
+            <div id="end">
+                <p>Registrace ukončena!</p>
+            </div>
             <div id="logo">
                 <a href="https://astro-pi.org/" target="_blank">
                     <img src="/imgs/astropi.svg">

@@ -23,6 +23,7 @@
                 --clr6: #1fc3f3;
                 --clr7: #2c8aa7;
                 --clr8: #eefafd;
+                --clr9: #f34f1f;
             
                 --spacer: 4em 0;
             }
@@ -159,6 +160,18 @@
                 line-height: 1.4em;
                 width: 50vw;
             }
+
+            /*End*/
+            
+            #end {
+                width: 100vw;
+                text-align: center;
+                padding: 1em 0;
+                color: var(--clr4);
+                background-color: var(--clr9);
+                text-transform: uppercase;
+                font-weight: 600;
+            }
             
             /*Footer*/
 
@@ -201,6 +214,9 @@
 
     <body>
         <header>
+            <div id="end">
+                <p>Registrace ukončena!</p>
+            </div>
             <div id="logo">
                 <a href="https://astro-pi.org/" target="_blank">
                     <img src="/imgs/astropi.svg">
