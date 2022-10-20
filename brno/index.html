@@ -150,10 +150,17 @@
                 margin-bottom: 1em;
             }
 
-            #info div {
-                padding: 1em 1em;
+            #info li {
+                padding: .5em 1.3em;
+                line-height: 1.4em;
+                width: 50vw;
+                list-style-type: disc;
             }
 
+            #info li li {
+                padding: .1em 1em .1em 3em;
+                list-style-position: inside;
+            }
 
             /*Reg*/
 
@@ -301,7 +308,7 @@
             }
 
             @media (max-width: 945px) {
-                #challenge p {
+                #challenge p, #info li {
                     width: 90vw;
                 }
                 #nav li {
@@ -359,21 +366,40 @@
             <h1>AstroPi Hackathon Brno</h1>
         </section>
         <section id="info">
-            <h1>Informace</h1>
-            <div> 
-                <div>
-                    <h2>Kdy?</h2>
-                    <p>21. 10. - 22. 10. 2022</p>
-                </div>
-                <div>
-                    <h2>Kde?</h2>
-                    <p>Brno, Cyrilometodějské gymnázium a střední odborná škola pedagogická, Lerchova 63</p>
-                </div>
-                <div>
-                    <h2>Pro koho?</h2>
-                    <p>2 - 6 členné týmy studentů ve věku 12 - 19 let</p>
-                </div>
-            </div>
+            <h1>Informace pro účastníky</h1>
+            <ul>
+                <li>
+                    <strong>Prezence bude probíhat v pátek (21. 20. 2022) od 14:00 do 15:00</strong>. 
+                    V tomto čase se tedy prosím dostavte na adresu <a href="https://en.mapy.cz/s/fosekosuzu" target="_blank">Lerchova 63</a> (je to kousek od konečné zastávky tramvaje č. 4 - Náměstí Míru). 
+                    Hned ve vstupu do budovy na vás budeme čekat. 
+                    Po zapsání vám ukážeme vaší místnost a seznámíme vás se základním harmonogramem.
+                </li>
+                <li>
+                    Po prezenci bude následovat <strong>úvodní prezentace</strong> a potom už soutěžíme. 
+                    Na této prezentaci vás seznámíme blíže se soutěžemi AstroPi Challenge a AstroPi Hackathon, pravidly a organizací.
+                </li>
+                <li>
+                    <strong>Akce končí v sobotu v 15:00</strong> po společném obědě.
+                </li>
+                <li>
+                    Vezměte si s sebou:
+                    <ul>
+                        <li>spacák</li>
+                        <li>karimatku</li>
+                        <li>počítač (několik jich bude k dispozici k zapůjčení)</li>
+                        <li>předměty osobní hygieny (kartáček na zuby, pasta, mýdlo, ručník)</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Strava</strong> je pro vás zajištěna tato: pátek - večeře, sobota - snídaně, oběd. 
+                    Nad rámec toho není zajištěno jiné občerstvení, krom vody a čaje po celou dobu akce.
+                </li>
+                <li>
+                    Celá soutěž je <strong>zdarma</strong>. 
+                    Neplatíte žádný účastnický poplatek a stravování je také zdarma.
+                </li>
+            </ul>
+            <p style="text-align:center;"><strong>Těšíme se na vás!</strong></p>
         </section>
         <section id="reg">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6HfCSj9u8WBL5nWif_EPxqBEKFejUsw3WzS8rKQfjoiAXUw/viewform" target="_blank"><h1>Registrace</h1></a>
