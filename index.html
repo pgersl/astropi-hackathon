@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <title>AstroPi Hackathon</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AstroPi Hackathon | Brno</title>
         <link rel="icon" href="/imgs/picomp.png">
         <style>
+            /*General*/
+
             @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
                     
             * {
@@ -70,7 +72,11 @@
             a:active {
                 color: var(--clr7);
             }
-
+            
+            #info, #reg, #challenge, #partners, #kontakt {
+                scroll-margin-top: 20px;
+            }
+            
             /*Header*/
             
             #logo {
@@ -84,59 +90,101 @@
                 width: 4.5em;
                 padding: .7em;
             }
-
-            /*Intro*/
-
-            #intro {
+            
+            #nav {
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                padding: .5em .2em;
+                text-transform: uppercase;
+                color: var(--clr4);
+                background-color: var(--clr2);
+            }
+            
+            #nav li {
+                margin: 10px;
+                font-size: 1em;
+                font-weight: 550;
+            }
+            
+            #nav a {
+                text-decoration: none;
+            } 
+            
+            /*Hackathon*/
+            
+            #hackathon {
                 width: 100vw;
                 padding: var(--spacer);
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                font-size: 130%;
                 color: var(--clr4);
                 background-color: var(--clr1);
             }
-
-            #intro h1 {
-                margin-bottom: 1em;
+            
+            #hackathon h1 {
+                margin-bottom: .5em;
+            }
+            
+            #hackathon p {
+                margin: 0 1em 0 1em;
             }
 
-            #intro p {
-                padding: .5em 1.3em;
-                line-height: 1.4em;
-                width: 90vw;
-            }
+            /*Info*/
 
-            /*Btns*/
-
-            #btns {
-                width: 100%;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
+            #info {
+                width: 100vw;
+                padding: var(--spacer);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: left;
                 color: var(--clr5);
                 background-color: var(--clr4);
             }
 
-            .place {
-                width: 30vw;
-                display: block;
-                text-align: center;
-                margin: 6em auto 6em auto;
-                padding: 3em 2em 3em 2em;
-                border-style: solid;
-                border-color: var(--clr2);
-                border-radius: 0.7em;
-                text-decoration: none;
+            #info h1 {
+                margin-bottom: 1em;
             }
 
-            .place:hover {
+            #info li {
+                padding: .5em 1.3em;
+                line-height: 1.4em;
+                width: 50vw;
+                list-style-type: disc;
+            }
+
+            #info li li {
+                padding: .1em 1em .1em 3em;
+                list-style-position: inside;
+            }
+
+            /*Reg*/
+
+            #reg {
+                width: 100vw;
+                padding: var(--spacer);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 background-color: var(--clr8);
             }
 
-            .place h1 {
-                vertical-align: middle;
+            #reg a {
+                margin: 1em 0 1em 0;
+                padding: .5em 1.3em;
+                border-radius: 1.1em;
+                text-decoration: line-through;
+                color: var(--clr4);
+                background-color: var(--clr9);
+            }
+
+            #reg a:hover {
+                color: var(--clr4);
+                background-color: var(--clr5);
             }
 
             /*Challenge*/
@@ -147,8 +195,8 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                color: var(--clr5);
-                background-color: var(--clr8);
+                color: var(--clr4);
+                background-color: var(--clr1);
             }
 
             #challenge h1 {
@@ -161,6 +209,92 @@
                 width: 50vw;
             }
 
+            /*Partners*/
+
+            #main-partners, #other-partners {
+                padding: var(--spacer);
+                max-width: 80vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            
+            }
+
+            #main-partners a:hover, #other-partners a:hover, #main-partners a, #other-partners a {
+                text-decoration: none;
+            }
+
+            #main-partners h1 {
+                margin-bottom: 1em;
+            }
+
+            #main-partners img, #other-partners img {
+                overflow: hidden;
+                object-fit: contain;
+                background-size: cover;
+                background-position: center;
+                vertical-align: middle;
+            }
+
+            #main-partners img {
+                width: 450px;
+                padding: .3em 2em .3em 2em;
+            }
+
+            #other-partners img {
+                width: 150px;
+                padding: .3em 1em .3em 1em;
+            }
+
+            /*kontakt*/
+
+            #kontakt {
+                width: 100vw;
+                padding: var(--spacer);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: var(--clr5);
+                background-color: var(--clr8);
+            }
+
+            #kontakt a {
+                color: var(--clr6);
+            }
+
+            #kontakt a:hover {
+                color: var(--clr7);
+            }
+
+            #kontakt h1 {
+                margin-bottom: 1em;
+            }
+
+            #kontakty {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .kontakt {
+                margin: 1em;
+                padding: .5em;
+                width: fit-content 100%;
+                border-style: solid;
+                border-color: var(--clr3);
+                border-radius: 1.1em;
+            }
+            
+            /*Footer*/          
+
+            footer {
+                width: 100vw;
+                text-align: center;
+                padding: 1em 0;
+                color: var(--clr3);
+                background-color: var(--clr1);
+            }
+            
             /*End*/
             
             #end {
@@ -172,25 +306,18 @@
                 text-transform: uppercase;
                 font-weight: 600;
             }
-            
-            /*Footer*/
-
-            footer {
-                width: 100vw;
-                text-align: center;
-                padding: 1em 0;
-                color: var(--clr3);
-                background-color: var(--clr1);
-            }
 
             @media (max-width: 945px) {
-                #challenge p {
+                #challenge p, #info li {
                     width: 90vw;
                 }
                 #nav li {
                     font-size: .8em;
                 }
-            }
+                #kontakty {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }           
 
             @media (max-width: 590px) {
                 #main-partners img {
@@ -199,19 +326,21 @@
                 body {
                     font-size: .9em;
                 }
-                #btns {
-                    font-size: .7em;
-                }
-            }
+            }           
 
             @media (max-width: 450px) {
-                #intro {
-                    font-size: 1em;
+                #nav li {
+                    font-size: .7em;
+                }
+                #kontakty {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                 }
             }
+
         </style>
     </head>
-
     <body>
         <header>
             <div id="end">
@@ -225,22 +354,67 @@
                     <img src="/imgs/picomp.png">
                 </a>
             </div>
+            <ul id="nav">
+                <li><a href="#info">Informace</a></li>
+                <li><a href="#challenge">O AstroPi</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
         </header>
-        <section id="intro">
+        <section id="hackathon">
             <h1>AstroPi Hackathon</h1>
             <p>
                 Baví tě vesmír, věda a občas zkusíš i programování? <br>
                 Tak vem svoje kamarády a kamarádky a propojte všechna tato odvětví na akci <strong>AstroPi Hackathon!</strong>
             </p>
         </section>
-        <section id="btns">
-            <a class="place" href="/brno/">
-                <h1>Brno</h1>
-            </a>
-            <a class="place" href="/praha/">
-                <h1>Praha</h1>
-            </a>
-            </div>
+        <section id="info">
+            <h1>Informace pro soutěžící</h1>
+            <ul>
+                <li>
+                    Do <strong>28. 10. 2022</strong> je potřba splnit toto:
+                    <ul>
+                        <li>
+                            Domluvte se v týmu a případně ještě poupravte váš experiment na základě zpětné vazby od mentorů a porotců taki, aby měl váš návrh experimentu co největší šanci uspět.
+                        </li>
+                        <li>
+                            Podívejte se, na jaké otázky musíte při podání experimentu odpovědět. Jelikož se jedná o mezinárodní soutěž, musí být veškeré vaše odpovědi formulované v angličtině, tudíž je nutné přeložit váš návrh experimentu do angličtiny. Při popisu experimentu nemusíte vymýšlet nic dlouhého, ideálně tak 4 až 5 rozvitých vět.
+                        </li>
+                        <li>
+                            Domluvte si mentora vašeho týmu. Tím může být třeba rodič, učitel, vedoucí kroužku nebo kdokoliv z vašeho okolí, kdo je ochotný za vás s ESA komunikovat. <strong>Tento mentor se musí zaregistrovat do 28. října <a href="https://missions.astro-pi.org/login?return=%2Fmission" target="_blank">zde</a></strong>.
+                        </li>
+                        <li>
+                            Zaregistrovaný mentor přihlásí váš experiment skrze formulář v jeho mentorském portálu. Tam nalezne přesně stejné otázky, které si můžete prohlédnout předem na níže zmíněném odkazu.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Užitečné odkazy:
+                    <ul>
+                        <li>
+                            <a href="https://astro-pi.org/mission-space-lab/resources" target="_blank">Videa a návody od ESA</a>
+                        </li>
+                        <li>
+                            <a href="https://www.esa.int/Education/AstroPI/Astro_Pi_Mission_Space_Lab_2021_22_The_Winners" target="_blank">Vítězové z minulých let</a>
+                        </li>
+                        <li>
+                            <a href="/brno/fomular_napadu.pdf" target="_blank">Formulář nápadu</a>
+                        </li>
+                        <li>
+                            <a href="https://apps.sentinel-hub.com/sentinel-playground/?source=S2&lat=48.80686346108519&lng=9.199950937181711&zoom=9&preset=1-NATURAL-COLOR&layers=B01,B02,B03&maxcc=12&gain=1.5&gamma=1.0&time=2021-01-01%7C2021-07-22&atmFilter=&showDates=false" target="_blank">Inspirace pro satelitní snímky</a>
+                        </li>
+                        <li>
+                            <a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/Where_is_the_International_Space_Station" target="_blank">Poloha ISS právě teď</a>
+                        </li>
+                        <li>
+                            <a href="https://www.flickr.com/photos/tags/Astro%20Pi/page80" target="_blank">Fotky z minulých let (stará kamera)</a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5" target="_blank">Fotky z minulého roku (nová kamera)</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p style="text-align:center;"><strong>Přejeme vám hodně štěstí!</strong></p>
         </section>
         <section id="challenge">
             <h1>O AstroPi</h1>
@@ -258,11 +432,41 @@
                 Akce bude trvat <strong>přibližně 24 hodin</strong>, od pátečních 15:00 do sobotních 15:00.&nbsp;
                 K dispozici ti navíc budou odborníci z různých odvětví, od ekologie až po informatiku.&nbsp;
                 Vyzkoušíš si práci pod tlakem v týmu, prezentování před publikem, obhajobu projektu a navíc si užiješ spoustu zábavy při přespání!&nbsp;
+                Ve dvou kategoriích (mladší a starší) soutěžíme o <strong>úžasné ceny</strong> - volné vstupy do VIDA! Science centra, předplatné časopisu Vesmír.cz, tour po SAB Aerospace a v neposladní řadě o plnou tašku věcí z Honeywellu!
             </p>
+            <p>
+                Na akci se zároveň nemusíš vůbec připravovat!&nbsp;
+                Na vymýšlení experimentu budeš mít času dost, celou soutěž AstroPi Challenge ti dopodrobna představíme.&nbsp;
+                Na akci se zatím nebude ani programovat, ale s možnostmi programovacího jazyka Python ti určitě někdo poradí.&nbsp;
+                Doprovod si shánět nemusíš!&nbsp;
+                Počítej s tím, že pro doprovod nebude zajištěna strava. 
+            </p>
+        </section>
+        <section id="kontakt">
+            <h1>Kontakt</h1>
+            <div id="kontakty">
+                <div class="kontakt">
+                    <strong>Matěj Šicner</strong>
+                    <p>organizátor</p>
+                    <p><a href="mailto:msicner@cmgp.cz">msicner@cmgp.cz</a></p>
+                    <p><a href="tel:+420731724502">731 724 502</a></p>
+                </div>
+                <div class="kontakt">
+                    <strong>Petr Geršl</strong>
+                    <p>organizátor </p>
+                    <p><a href="mailto:pgersl@cmgp.cz">pgersl@cmgp.cz</a></p>
+                    <p><a href="tel:+420731347915">731 347 915</a></p>
+                </div>
+                <div class="kontakt">
+                    <strong>Jan Spratek</strong>
+                    <p>organizátor</p>
+                    <p><a href="mailto:spratek@planetum.cz">spratek@planetum.cz</a></p>
+                    <p><a href="tel:+420731435236">731 435 236</a></p>
+                </div>
+            </div>    
         </section>
         <footer>
             <p>&copy;2022</p>
-        </footer>
+        </footer>   
     </body>
-
 </html>
