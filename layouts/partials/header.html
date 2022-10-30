@@ -1,0 +1,17 @@
+<header id="def-header">
+    <div id="def-header-logos">
+        <a href="{{.Site.BaseURL}}">
+            <img src="/favicon/fav.png">
+        </a>
+        <a href="https://astro-pi.org/" target="_blank">
+            <img src="/images/base/astropi.svg">
+        </a>
+    </div>
+    <ul id="nav">
+        {{range.Site.Menus.main}}
+            <li>
+                <a href="{{.URL}}">{{.Name}}</a>
+            </li>
+        {{end}}
+    </ul>
+</header>
