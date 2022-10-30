@@ -1,5 +1,5 @@
 baseURL = 'https://astropi-hackathon.org/'
-languageCode = 'cs'
+languageCode = 'en-US'
 title = 'AstroPi Hackathon'
 uglyURLs = "false"
 enableEmoji = "true"
