@@ -33,6 +33,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 ::selection {
@@ -45,11 +47,18 @@ main div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: left;
     padding: var(--spacer);
 }
 
 #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-blue1);
+    color: var(--white);
     text-align: center;
 }
 
