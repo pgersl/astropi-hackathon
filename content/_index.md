@@ -27,15 +27,6 @@ Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 
 {{< div-end >}}
 
-{{< div-start c="white" bg-c="dark-blue2" id="past" >}}
-
-## Z minulých let
-
-
-:pray: Připravujeme! :pray:
-
-{{< div-end >}}
-
 {{< div-start c="white" bg-c="red" id="present">}}
 
 ## K aktuálnímu ročníku
@@ -51,7 +42,7 @@ Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 
 {{< div-end >}}
 
-{{< div-start bg-c="white" id="logos" >}}
+{{< div-start bg-c="light-blue3" id="logos" >}}
 
 {{< fig class="organizer" cap="Organizátor akce" src="/images/organizers/cmgp.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
 

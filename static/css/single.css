@@ -1,4 +1,4 @@
-#present-info {
+#present-info{
     text-align: center;
     font-weight: 900;
     text-transform: uppercase;
@@ -49,4 +49,7 @@
 }
 .past-partner img {
     width: 195px;
+}
+#gallery-info {
+    text-align: center;
 }
