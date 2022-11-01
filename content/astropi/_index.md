@@ -11,7 +11,7 @@ layout: single
 
 {{< div-end >}}
 
-{{< div-start bg-c="light-blue3" id="info" >}}
+{{< div-start bg-c="light-blue3" id="astropi-info" >}}
 
 
 :pray: Připravujeme :pray:

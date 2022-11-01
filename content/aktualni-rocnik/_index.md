@@ -11,7 +11,7 @@ layout: single
 
 {{< div-end >}}
 
-{{< div-start c="white" bg-c="red" id="info" >}}
+{{< div-start c="white" bg-c="red" id="present-info" >}}
 
 
 Bude upřesněno!

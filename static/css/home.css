@@ -4,10 +4,6 @@
 #past {
     text-align: center;
 }
-#past h2, #present h2, #present h3 {
-    width: 90vw;
-    text-align: left;
-}
 #logos {
     padding: var(--spacer);
     width: 100vw;
@@ -19,7 +15,7 @@
     text-align: center;
 }
 #logos figcaption {
-    font-size: calc(var(--font-size) * 1.02);
+    font-size: calc(var(--font-size) * .82);
     font-weight: 900;
 }
 #logos img {
@@ -30,4 +26,10 @@
     vertical-align: middle;
     padding: .3em 1em .3em 1em;
     width: 450px;
+}
+
+@media (max-width:600px) {
+    #logos img {
+        width: 300px;
+    }
 }

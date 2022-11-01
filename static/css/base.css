@@ -19,7 +19,7 @@
     --red: #f34f1f;
     --yellow: #ffc700;
 
-    --spacer: 4em 0;
+    --spacer: 4em 0 4em 0;
     --font-size: 1.2em;
 }
 
@@ -40,6 +40,15 @@ body {
 ::selection {
     color: var(--dark-blue1);
     background-color: var(--yellow);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--light-blue3);
+    width: 100vw;
 }
 
 main div {
@@ -77,12 +86,16 @@ h1 {
 
 h2 {
     font-size: calc(var(--font-size) * 1.3);
-    padding-bottom: .3em;
+    padding-bottom: .5em;
+    width: 90vw;
+    text-align: left;
 }
 
 h3 {
     font-size: calc(var(--font-size) * 1.15);
-    padding-bottom: .2em;
+    padding-bottom: .45em;
+    width: 90vw;
+    text-align: left;
 }
 
 a {
@@ -113,7 +126,7 @@ a:active {
 #def-header #nav {
     width: 100vw;
     display: flex;
-    justify-content:right;
+    justify-content: center;
     flex-direction: row;
     padding: .5em .3em;
     text-transform: uppercase;
@@ -124,7 +137,6 @@ a:active {
 
 #def-header #nav li {
     margin: 1em;
-    font-size: 1em;
     font-weight: 550;
 }
 
@@ -174,5 +186,24 @@ a:active {
 @media (max-width:800px) {
     main p {
         width: 90vw;
+    }
+    #def-header #nav li {
+        font-size: .8em;
+    }
+    :root {
+        --font-size: 1.07em
+    }
+}
+
+@media (max-width:600px) {
+    #def-header #nav li {
+        font-size: .67em;
+    }
+    #def-header-logos img {
+        width: 3em;
+        padding: .4em;
+    }
+    :root {
+        --font-size: .96em
     }
 }
