@@ -44,8 +44,10 @@ Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 
 {{< div-start bg-c="light-blue3" id="logos" >}}
 
-{{< fig class="organizer" cap="Organizátor akce" src="/images/organizers/cmgp.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
+## Organizátoři
 
-{{< fig class="organizers" cap="Organizátor akce" src="/images/organizers/planetum.png" alt="Logo Planetum" link="https://www.planetum.cz/" >}}
+{{< fig class="organizer" src="/images/organizers/cmgp.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
+
+{{< fig class="organizers" src="/images/organizers/planetum.png" alt="Logo Planetum" link="https://www.planetum.cz/" >}}
 
 {{< div-end >}}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        {{partial "head.html" .}}
+        {{partial "style-base.html" .}}
+        {{partial "style-single.html" .}}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/>
+        <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+        {{partial "header.html" .}}
+        <main>
+            {{.Content}}
+            <div class="gallery-container">
+                <div class="gallery">
+                    {{$path := (printf "%s%s" "static/images/galerie/" .Params.gallery)}}
+                    {{$contents := readDir $path}}
+                    {{range seq  (len $contents)}}
+                        {{$format := (printf ".webp")}}
+                        {{$name := (printf "%s%s" (string .) $format)}} 
+                        {{$filename := printf "%s/%s" (replace $path "static" "") $name}}
+                        {{$name := (printf (replace $name $format ""))}}
+                        <div class="gallery-photo">
+                            <a href="{{$filename}}" class="glightbox" data-gallery="gallery1">
+                                <img src="{{$filename}}" alt="image"/>
+                            </a>
+                        </div>
+                    {{end}}
+                </div>
+                <script>
+                    const lightbox = GLightbox({
+                            touchNavigation: true,
+                            loop: true,
+                        });
+                </script>
+            </div>
+        </main>
+        {{partial "footer.html" .}}
+    </body>
+</html>

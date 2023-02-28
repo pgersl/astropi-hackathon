@@ -1,23 +1,14 @@
-#header h1 {
-    font-size: calc(var(--font-size) * 2.4);
-}
-#past {
-    text-align: center;
-}
 #logos {
     padding: var(--spacer);
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
 }
-#logos figcaption {
-    font-size: calc(var(--font-size) * .82);
-    font-weight: 900;
-}
+
 #logos img {
     overflow: hidden;
     object-fit: contain;
@@ -27,7 +18,12 @@
     padding: .3em 1em .3em 1em;
     width: 450px;
 }
-
+#header {
+    text-align: center;
+}
+#header h1 {
+    font-size: calc(var(--font-size) * 2.4);
+}
 @media (max-width:600px) {
     #logos img {
         width: 300px;

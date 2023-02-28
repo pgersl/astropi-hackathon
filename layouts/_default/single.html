@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="cs">
     <head>
-        {{partial "head-meta.html" .}}
+        {{partial "head.html" .}}
         {{partial "style-base.html" .}}
         {{partial "style-single.html" .}}
+        {{if .Params.images}}
+            {{partial "glightbox.html" .}}
+        {{end}}
         <title>{{.Title}}</title>
     </head>
     <body>

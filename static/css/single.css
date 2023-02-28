@@ -1,29 +1,40 @@
+
+/*aktualni-rocnik*/
+
 #present-info{
     text-align: center;
     font-weight: 900;
     text-transform: uppercase;
 }
+
+/*astropi*/
+
 #astropi-info {
     text-align: center;
 }
+
+/*minule-rocniky*/
+
 .past-photo {
-    max-width: 50vw;
+    max-width: 40vw;
     min-width: 300px;
-    margin: auto;
+    margin: 0 auto;
     padding-top: .8em;
     padding-bottom: .8em;
 }
+
 .past-photo img {
-    max-width: 50vw;
+    max-width: 40vw;
     min-width: 300px;
     margin: auto;
+    padding: auto;
 }
 .past-photo figcaption {
     font-size: calc(var(--font-size) * .7);
 }
-#partners {
+#partners, #main-partners {
     padding: var(--spacer);
-    width: 100vw;
+    max-width: 80vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -31,12 +42,18 @@
     align-items: flex-start;
     text-align: center;
 }
-#partners img {
+
+#partner-container div {
+    padding: .2em 0;
+}
+
+#partners img, #main-partners img {
     padding: .3em 1em .3em 1em;
 }
-#partners figcaption {
+#partners figcaption, #main-partners figcaption {
     font-weight: 900;
     font-size: calc(var(--font-size) * .82);
+    position: relative;
 }
 .past-main-partner {
     width: 300px;
@@ -50,6 +67,52 @@
 .past-partner img {
     width: 195px;
 }
-#gallery-info {
-    text-align: center;
+
+/*galerie*/
+
+.gallery-container {
+    padding: var(--spacer);
+    width: 100vw;
+    color: var(--black);
+    background-color: var(--light-blue3);
+}
+
+.galler-container * {
+    padding: 0;
+    margin: 0;
+}
+
+.gallery {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90vw;
+}
+
+.gallery-photo {
+    max-width: 30vw;
+}
+
+.gallery-photo img {
+    max-width: 100%;
+    min-width: 200px;
+    padding: 1em;
+}
+
+@media (max-width:650px) {
+    .gallery-photo {
+        max-width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-photo a {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .gallery {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
