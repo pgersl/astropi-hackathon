@@ -33,7 +33,7 @@
 }
 
 @media (max-width:600px) {
-    #logos img {
+    .logos img {
         width: 300px;
     }
 }
