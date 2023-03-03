@@ -261,6 +261,13 @@ a.mention {
     }
 }
 
+@media (max-width:450px) {
+    .contact-picture img {
+        width: 85px;
+        height: 85px;
+    }
+}
+
 @media (max-width:350px) {
     .contact-picture {
         margin-right: 0;
