@@ -205,10 +205,12 @@ a.mention {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-picture img {
     width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -255,6 +257,7 @@ a.mention {
 @media (max-width:500px) {
     .contact-picture img {
         width: 95px;
+        height: 95px;
     }
 }
 
