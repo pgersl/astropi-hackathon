@@ -1,3 +1,10 @@
+if [ -z "$1" ]; then
+  echo "Usage: $0 directory_name"
+  exit 1
+fi
+
+cd "$1"
+
 counter=1
 
 for file in *; do

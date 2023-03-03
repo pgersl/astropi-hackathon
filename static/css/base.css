@@ -4,12 +4,15 @@
     --dark-blue1: #001a26;
     --dark-blue2: #002b3f;
     --dark-blue3: #005177;
+    --dark-blue4: #004666;
     --white: #ffffff;
     --black: #000000;
+    --grey: #e3eaec81;
     --light-blue1: #1fc3f3;
     --light-blue2: #2c8aa7;
     --light-blue3: #eefafd;
-    --red: #f34f1f;
+    --red: #E8112D;
+    --pink: #ff45bd;
     --yellow: #ffc700;
 
     --spacer: 4em 0 4em 0;
@@ -30,6 +33,7 @@ body {
     width: 100vw;
     overflow: hidden;
     overflow-y: scroll;
+    background-color: var(--black);
 }
 
 /*HEADER*/
@@ -171,7 +175,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: var(--light-blue3);
+    background-color: var(--black);
     width: 100vw;
 }
 
@@ -225,11 +229,15 @@ main p {
     }
     .footer-container {
         flex-direction: column;
+        width: 100vw;
+    }
+    .footer-container p {
+        max-width: 100vw;
     }
 }
 
 @media (max-width:450px) {
     :root {
-        --font-size: 1.1em;
+        --font-size: 1em;
     }
 }

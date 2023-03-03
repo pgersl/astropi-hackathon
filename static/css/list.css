@@ -20,7 +20,7 @@
 
 .gallery-anchor img {
     width: 350px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .gallery-anchor img:hover {

@@ -1,7 +1,7 @@
 
 /*aktualni-rocnik*/
 
-#present-info{
+.present-info{
     text-align: center;
     font-weight: 900;
     text-transform: uppercase;
@@ -9,12 +9,32 @@
 
 /*astropi*/
 
-#astropi-info {
+.astropi-info {
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 /*minule-rocniky*/
 
+.article-nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
+}
+.article-nav a {
+    padding: .6em;
+    margin: 0 .5em;
+    text-transform: uppercase;
+    background-color: var(--dark-blue1);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 15px;
+}
+.article-nav a:hover {
+    background-color: var(--dark-blue2);
+    font-weight: 600;
+}
 .past-photo {
     max-width: 40vw;
     min-width: 300px;
@@ -32,7 +52,7 @@
 .past-photo figcaption {
     font-size: calc(var(--font-size) * .7);
 }
-#partners, #main-partners {
+.partners, .main-partners {
     padding: var(--spacer);
     max-width: 80vw;
     display: flex;
@@ -43,14 +63,14 @@
     text-align: center;
 }
 
-#partner-container div {
+.partner-container div {
     padding: .2em 0;
 }
 
-#partners img, #main-partners img {
+.partners img, .main-partners img {
     padding: .3em 1em .3em 1em;
 }
-#partners figcaption, #main-partners figcaption {
+.partners figcaption, .main-partners figcaption {
     font-weight: 900;
     font-size: calc(var(--font-size) * .82);
     position: relative;
@@ -66,6 +86,52 @@
 }
 .past-partner img {
     width: 195px;
+}
+.past-main-partner, .past-partner {
+    border-radius: 30px;
+}
+.past-main-partner:hover, .past-partner:hover {
+    background-color: var(--grey);
+}
+.past-main-partner a, .past-partner a {
+    text-decoration: none;
+}
+.past-main-partner a:hover, .past-partner a:hover {
+    color: initial;
+}
+.mentions-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    margin-top: 1em;
+}
+
+.mention-container {
+    margin: 1em;
+    max-width: 15em;
+    border: solid var(--dark-blue4) 4px;
+    border-radius: 30px;
+    color: var(--dark-blue3);
+    background-color: var(--light-blue3);
+    font-size: calc(var(--font-size) * 0.76);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+a.mention {
+    text-decoration: none;
+    margin: 0 1em 1em 1em;
+    font-weight: 500;
+}
+
+.mention-container p {
+    font-style: italic;
+    margin-top: 1em;
+    font-size: calc(var(--font-size) * 0.7);
 }
 
 /*galerie*/
@@ -97,6 +163,75 @@
     max-width: 100%;
     min-width: 200px;
     padding: 1em;
+}
+
+/*novinky*/
+
+.news ul {
+    list-style-type: disc;
+    padding-left: 2.4em;
+}
+
+.news-container {
+    margin-bottom: 3em;
+}
+
+/*kontakt*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: .9em;
+    width: 90vw;
+    max-width: 37em;
+    padding: 1em;
+    border: solid var(--dark-blue1) 2px;
+    border-radius: 30px;
+}
+
+.contact-container:hover {
+    background-color: var(--grey);
+}
+
+.contact-picture {
+    margin-right: 3em;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-picture img {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-info-name {
+    font-weight: 600;
+    margin-bottom: .4em;
+}
+
+.contact-info-position {
+    margin-bottom: .4em;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 @media (max-width:650px) {
