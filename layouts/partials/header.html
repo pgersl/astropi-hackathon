@@ -1,0 +1,19 @@
+<nav class="nav">
+    <div class="logo">
+        <a href="/">
+            <img src="/images/base/logoEXPORT.webp">
+        </a>
+    </div>
+    <a href="#" class="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="links">
+        <ul>
+            {{range .Site.Menus.main}}
+                <li><a href="{{.URL}}">{{.Name}}</a></li>
+            {{end}}
+        </ul>
+    </div>
+</nav>

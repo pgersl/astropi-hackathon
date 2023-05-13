@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{partial "head.html" .}}
+        {{partial "style-base.html" .}}
+        <title>404: Stránka neexistuje</title>
+    </head>
+    <body>
+        {{partial "header.html" .}}
+        <main style="color:var(--dark-blue1);background-color:var(--white)">
+            <h1>404: Stránka nenalezena!</h1>
+            <p style="text-align:center;">Zřejmě jste zadali špatnou adresu URL nebo jste narazili na rozbitý odkaz.</p>
+        </main> 
+        {{partial "footer.html" .}}
+    </body>
+</html>
