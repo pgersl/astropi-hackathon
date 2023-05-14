@@ -1,6 +1,6 @@
 ---
 title: "AstroPi Hackathon"
-layout: maintenance
+layout: home
 ---
 {{< div-start c="white" bg-c="dark-blue1" id="header" >}}
 
