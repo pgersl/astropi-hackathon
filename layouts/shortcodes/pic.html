@@ -1,6 +1,6 @@
 <figure {{with .Get "class"}}class="{{.}}"{{end}}>
     <a href="{{.Get "path"}}">
-        <img src="{{.Get "path"}}" alt="{{.Get "alt"}}">
+        <img src="{{.Get "path"}}" alt="{{.Get "alt"}}" loading="lazy">
     </a>
     {{with .Get "cap"}}
         <figcaption>

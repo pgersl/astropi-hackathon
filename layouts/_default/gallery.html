@@ -24,7 +24,7 @@
                         {{$name := (printf (replace $name $format ""))}}
                         <div class="gallery-photo">
                             <a href="{{$filename}}" class="glightbox" data-gallery="gallery1">
-                                <img src="{{$filename}}" alt="image"/>
+                                <img src="{{$filename}}" alt="image" loading="lazy"/>
                             </a>
                         </div>
                     {{end}}
