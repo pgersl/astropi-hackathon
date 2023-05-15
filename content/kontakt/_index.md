@@ -23,8 +23,6 @@ layout: single
 
 {{< contact pic="/images/base/logoEXPORT.webp" name="Martin Doušek" position="organizátor, fotograf" mail="mdousek@cmgp.cz" tel="+420 739 483 920" >}}
 
-{{< contact pic="/images/base/logoEXPORT.webp" name="Veronika Svobodová" position="organizátorka, koordinátorka" mail="svobodova@cmgp.cz" tel="+420 777 984 308" >}}
-
 {{< contact pic="/images/base/logoEXPORT.webp" name="Jitka Coufalová" position="spolupráce" mail="coufalova@cmgp.cz" tel="+420 731 604 576" >}}
 
 ## Praha
