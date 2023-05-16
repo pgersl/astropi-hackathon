@@ -149,9 +149,7 @@ a.mention {
 }
 
 .gallery {
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+	columns: 3;
     max-width: 90vw;
 }
 
@@ -246,6 +244,15 @@ a.mention {
     margin: 0;
 }
 
+@media (max-width:780px) {
+    .gallery {
+        columns: 2;
+    }
+    .gallery-photo {
+        max-width: 45vw;
+    }
+}
+
 @media (max-width:650px) {
     .gallery-photo {
         max-width: 90vw;
@@ -259,6 +266,8 @@ a.mention {
         margin: 0 auto;
     }
     .gallery {
+        columns: 1;
+        display: flex;
         flex-direction: column;
         justify-content: center;
     }

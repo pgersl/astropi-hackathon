@@ -14,7 +14,7 @@
         <main>
             {{.Content}}
             <div class="gallery-container">
-                <div class="gallery">
+                <article class="gallery">
                     {{$path := (printf "%s%s" "static/images/galerie/" .Params.gallery)}}
                     {{$contents := readDir $path}}
                     {{range seq  (len $contents)}}
@@ -28,7 +28,7 @@
                             </a>
                         </div>
                     {{end}}
-                </div>
+                    </article>
                 <script>
                     const lightbox = GLightbox({
                             touchNavigation: true,
