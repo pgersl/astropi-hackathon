@@ -27,6 +27,6 @@ layout: single
 
 ## Praha
 
-{{< contact pic="/images/base/planetum.jpg" name="Jan Spratek" position="organizátor, spolupráce" mail="spratek@planetum.cz" tel="+420 731 435 236" site="planetum.cz" >}}
+{{< contact pic="/images/organizers/spratek.png" name="Jan Spratek" position="organizátor, spolupráce" mail="spratek@planetum.cz" tel="+420 731 435 236" site="planetum.cz" >}}
 
 {{< div-end >}}
