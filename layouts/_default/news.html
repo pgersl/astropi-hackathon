@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{.Site.LanguageCode}}">
+<html lang="cs">
     <head>
         {{partial "head.html" .}}
         {{partial "style-base.html" .}}
-        {{partial "style-home.html" .}}
+        {{partial "style-list.html" .}}
         <title>{{.Title}}</title>
     </head>
     <body>
@@ -11,8 +11,7 @@
         <main>
             {{.Content}}
             <div class="news">
-                <h2><a style="text-decoration: none;" href="/novinky">Novinky</a></h2>
-                {{range where .Site.Pages ".Params.news" "==" true | first 2}}
+                {{range .Pages}}
                     <div class="news-container">
                     <p class="news-title"><strong>{{.Title}}</strong></p>
                     <p class="news-date"><em>{{.Date | time.Format "02/01/2006"}}</em></p>

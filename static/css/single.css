@@ -1,10 +1,31 @@
 
 /*aktualni-rocnik*/
 
-.present-info{
-    text-align: center;
-    font-weight: 900;
+.location-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.place {
+    width: 250px;
+    padding: .7em;
     text-transform: uppercase;
+    background-color: var(--red);
+    border-radius: 15px;
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    font-size: calc(var(--font-size) * 1.2);
+    font-weight: bold;
+}
+
+.place:hover {
+    background-color: #fc2945;
+    color: var(--white);
 }
 
 /*astropi*/

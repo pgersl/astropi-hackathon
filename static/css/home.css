@@ -24,22 +24,82 @@
 .header h1 {
     font-size: calc(var(--font-size) * 2.4);
 }
+.news {
+    background-color: var(--dark-blue3);
+    color: var(--white);
+}
+
 .news ul {
     list-style-type: disc;
     padding-left: 2.4em;
 }
+
 .news-container {
     margin-bottom: 3em;
 }
 
-.news-container p:nth-child(1) {
+.news-container .news-title {
     padding-bottom: 0;
 }
 
-.news-container p:nth-child(2) {
+.news-container .news-date {
     padding-top: 0;
     font-size: calc(var(--font-size) * 0.7);
+    margin-left: 3px;
+}
+
+.present h1 a {
+    text-decoration: none;
+}
+
+.location-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.location {
+    padding: 1.5em;
+}
+
+.location * {
+    padding: 0;
+}
+
+.place {
+    display: block;
+    width: 180px;
+    padding: .3em;
     margin: 0;
+    text-transform: uppercase;
+    background-color: #fc2945;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: calc(var(--font-size) * 1.2);
+    font-weight: 900;
+}
+
+.place:hover, .registration-btn a:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    color: var(--white);
+}
+
+.location-date {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.registration-btn a {
+    padding: .4em;
+    background-color: #fc2945;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 15px;
 }
 
 @media (max-width:600px) {

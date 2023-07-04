@@ -66,6 +66,31 @@
     padding-top: .4em;
 }
 
+.news {
+    background-color: var(--white);
+    color: var(--dark-blue1);
+}
+
+.news ul {
+    list-style-type: disc;
+    padding-left: 2.4em;
+}
+
+.news-container {
+    margin-bottom: 3em;
+}
+
+.news-container .news-title {
+    padding-bottom: 0;
+    color: var(--red);
+}
+
+.news-container .news-date {
+    padding-top: 0;
+    font-size: calc(var(--font-size) * 0.7);
+    margin-left: 3px;
+}
+
 @media (max-width:1000px) {
     .taxonomy {
         flex-direction: column;

@@ -11,10 +11,14 @@ layout: single
 
 {{< div-end >}}
 
-{{< div-start c="white" bg-c="red" id="present-info" >}}
+{{< div-start c="white" bg-c="white" id="present-info" >}}
 
+{{< div-start id="location-container" >}}
 
-Bude upřesněno!
+{{< button class="place" link="#" text="Ostrava" >}}
 
+{{< button class="place" link="#" text="Praha" >}}
+
+{{< button class="place" link="#" text="Brno" >}}
 
 {{< div-end >}}
