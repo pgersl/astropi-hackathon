@@ -13,10 +13,10 @@ layout: single
 
 {{< div-start id="location-container" >}}
 
-{{< button class="place" link="#" text="Praha" >}}
+{{< button class="place" link="/aktualni-rocnik/praha" text="Praha" >}}
 
 {{< button class="place" link="/aktualni-rocnik/brno" text="Brno" >}}
 
-{{< button class="place" link="#" text="Ostrava" >}}
+{{< button class="place" link="/aktualni-rocnik/ostrava" text="Ostrava" >}}
 
 {{< div-end >}}

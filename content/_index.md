@@ -33,11 +33,11 @@ Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 
 {{< div-start id="location-container" >}}
 
-{{< location place="Praha" link="" date="17. - 18. 11. 2023" form="https://forms.gle/h9oMgjGTX3ePUfaA6" >}}
+{{< location place="Praha" link="/aktualni-rocnik/praha" date="17. - 18. 11. 2023" form="https://forms.gle/h9oMgjGTX3ePUfaA6" >}}
 
 {{< location place="Brno" link="/aktualni-rocnik/brno" date="24. - 25. 11. 2023" form="https://forms.gle/gxyvPixbjqmGNUuH9" >}}
 
-{{< location place="Ostrava" link="" date="2. - 3. 12. 2023" form="https://forms.gle/XDauRy5Ubn3ztniy9" >}}
+{{< location place="Ostrava" link="/aktualni-rocnik/ostrava" date="2. - 3. 12. 2023" form="https://forms.gle/XDauRy5Ubn3ztniy9" >}}
 
 {{< div-end >}}
 
