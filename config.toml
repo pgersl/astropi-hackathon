@@ -5,6 +5,8 @@ uglyURLs = "false"
 enableEmoji = "true"
 [params]
     description = "Oficiální stránky AstroPi Hackathonu"
+[markup.goldmark.renderer]
+    unsafe = "true"
 [menus]
     [[menu.main]]
         identifier = "aktualni-rocnik"

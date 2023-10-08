@@ -10,23 +10,87 @@
     width: 90vw;
 }
 
-.place {
+.button-link {
     width: 250px;
     padding: .7em;
     margin: 1em;
     text-transform: uppercase;
-    background-color: var(--red);
     border-radius: 15px;
-    color: var(--white);
     text-decoration: none;
     text-align: center;
     font-size: calc(var(--font-size) * 1.2);
     font-weight: bold;
 }
+.button-link:hover {
+    color: var(--white);
+}
+
+.place {
+    background-color: var(--red);
+    color: var(--white);
+}
 
 .place:hover {
     background-color: #fc2945;
+}
+
+.registration-button {
+    background-color: #fc2945;
     color: var(--white);
+}
+.registration-button:hover {
+    box-shadow: var(--shadow);
+}
+
+.present-info-grid {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.present-info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    max-width: 28%;
+    min-width: 250px;
+    flex: 1;
+}
+
+.present-info-item p {
+    margin: 1em 0 0 0;
+}
+
+.present-info-icon {
+    font-size: 45px;
+}
+
+.logos {
+    padding: var(--spacer);
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logos img {
+    overflow: hidden;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    padding: .3em 1em .3em 1em;
+    width: 450px;
 }
 
 /*astropi*/
@@ -97,28 +161,28 @@
     font-size: calc(var(--font-size) * .82);
     position: relative;
 }
-.past-main-partner {
+.main-partner {
     width: 300px;
 }
-.past-main-partner img {
+.main-partner img {
     width: 300px;
 }
-.past-partner {
+.partner {
     width: 195px;
 }
-.past-partner img {
+.partner img {
     width: 195px;
 }
-.past-main-partner, .past-partner {
+.main-partner, .partner {
     border-radius: 30px;
 }
-.past-main-partner:hover, .past-partner:hover {
+.main-partner:hover, .partner:hover {
     background-color: var(--grey);
 }
-.past-main-partner a, .past-partner a {
+.main-partner a, .partner a {
     text-decoration: none;
 }
-.past-main-partner a:hover, .past-partner a:hover {
+.main-partner a:hover, .partner a:hover {
     color: initial;
 }
 .mentions-container {

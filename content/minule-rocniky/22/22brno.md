@@ -138,27 +138,27 @@ Podívejte se na články o tomto ročníku!
 
 {{< div-start c="dark-blue1" bg-c="white" id="main-partners" >}}
 
-{{< fig class="past-main-partner" src="/images/past/22brno/honeywell.png" alt="Honeywell" link="https://www.honeywell.com/cz/en" cap="Hlavní parnter" >}}
+{{< fig class="main-partner" src="/images/partners/honeywell.png" alt="Honeywell" link="https://www.honeywell.com/cz/en" cap="Hlavní parnter" >}}
 
-{{< fig class="past-main-partner" src="/images/past/22brno/vesmir.png" alt="Vesmir.cz" link="https://vesmir.cz/cz/" cap="Hlavní partner">}}
+{{< fig class="main-partner" src="/images/partners/vesmir.png" alt="Vesmir.cz" link="https://vesmir.cz/cz/" cap="Hlavní partner">}}
 
 {{< div-end >}}
 
 {{< div-start c="dark-blue1" bg-c="white" id="partners" >}}
 
-{{< fig class="past-partner" src="/images/past/22brno/ctm.png" alt="CTM" link="https://ctm-academy.org/" cap="Partner" >}}
+{{< fig class="partner" src="/images/partners/ctm.png" alt="CTM" link="https://ctm-academy.org/" cap="Partner" >}}
 
-{{< fig class="past-partner" src="/images/past/22brno/psi.png" alt="PSI" link="https://psi.cz/" cap="Partner" >}}
+{{< fig class="partner" src="/images/partners/psi.png" alt="PSI" link="https://psi.cz/" cap="Partner" >}}
 
-{{< fig class="past-partner" src="/images/past/22brno/sab.png" alt="SAB" link="https://www.sab.srl/" cap="Partner" >}}
+{{< fig class="partner" src="/images/partners/sab.png" alt="SAB" link="https://www.sab.srl/" cap="Partner" >}}
 
-{{< fig class="past-partner" src="/images/organizers/planetum.png" alt="Planetum" link="https://www.planetum.cz/" cap="Partner" >}}
+{{< fig class="partner" src="/images/organizers/planetum.png" alt="Planetum" link="https://www.planetum.cz/" cap="Partner" >}}
 
-{{< fig class="past-partner" src="/images/past/22brno/hvezdarna.png" alt="Hvězdárna a planetárium Brno" link="https://www.hvezdarna.cz/" cap="Partner" >}}
+{{< fig class="partner" src="/images/partners/hvezdarna.png" alt="Hvězdárna a planetárium Brno" link="https://www.hvezdarna.cz/" cap="Partner" >}}
 
-{{< fig class="past-partner" src="/images/past/22brno/vida.png" alt="Vida Science Centrum" link="https://vida.cz/" cap="Partner" >}}
+{{< fig class="partner" src="/images/partners/vida.png" alt="Vida Science Centrum" link="https://vida.cz/" cap="Partner" >}}
 
-{{< fig class="past-partner" src="/images/past/22brno/esero.png" alt="ESERO" link="https://esero.spaceacademy.cz/" cap="Partner" >}}
+{{< fig class="partner" src="/images/partners/esero.png" alt="ESERO" link="https://esero.spaceacademy.cz/" cap="Partner" >}}
 
 {{< div-end >}}
 

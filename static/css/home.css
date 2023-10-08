@@ -85,7 +85,7 @@
 }
 
 .place:hover, .registration-btn a:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow);
     color: var(--white);
 }
 
