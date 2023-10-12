@@ -56,3 +56,23 @@ Planetárium Praha, Královská obora 233, Praha 7
 {{< fig class="organizer" src="/images/organizers/planetum.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
 
 {{< div-end >}}
+
+{{< div-start c="black" bg-c="white" id="partner-container" >}}
+
+## Partneři projektu
+
+{{< div-start c="dark-blue1" bg-c="white" id="main-partners" >}}
+
+{{< fig class="main-partner" src="/images/organizers/cmgp.png" alt="CMGP" link="https://www.cmgp.cz/" cap="Hlavní parnter" >}}
+
+{{< div-end >}}
+
+{{< div-start c="dark-blue1" bg-c="white" id="partners" >}}
+
+{{< fig class="partner" src="/images/partners/esero.png" alt="ESERO" link="" cap="Partner" >}}
+
+{{< fig class="partner" src="/images/partners/asu.png" alt="ASU AVČR" link="https://www.asu.cas.cz/" cap="Partner" >}}
+
+{{< div-end >}}
+
+{{< div-end >}}

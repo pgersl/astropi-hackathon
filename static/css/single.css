@@ -90,7 +90,9 @@
     background-position: center;
     vertical-align: middle;
     padding: .3em 1em .3em 1em;
-    width: 450px;
+    width: 85vw;
+    max-width: 450px;
+    min-width: 200px;
 }
 
 /*astropi*/
@@ -154,7 +156,7 @@
 }
 
 .partners img, .main-partners img {
-    padding: .3em 1em .3em 1em;
+    padding: .3em 1em;
 }
 .partners figcaption, .main-partners figcaption {
     font-weight: 900;
@@ -165,16 +167,17 @@
     width: 300px;
 }
 .main-partner img {
-    width: 300px;
+    width: 100%;
 }
 .partner {
     width: 195px;
 }
 .partner img {
-    width: 195px;
+    width: 100%;
 }
 .main-partner, .partner {
     border-radius: 30px;
+    padding-top: .3em;
 }
 .main-partner:hover, .partner:hover {
     background-color: var(--grey);

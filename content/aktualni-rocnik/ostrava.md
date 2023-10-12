@@ -48,3 +48,41 @@ Velký svět techniky – Dolní oblast Vítkovice, Ostrava
 {{< button class="registration-button" link="https://forms.gle/XDauRy5Ubn3ztniy9" text="Registrace" >}}
 
 {{< div-end >}}
+
+{{< div-start c="black" bg-c="light-blue3" id="logos" >}}
+
+## Organizátor
+
+{{< fig class="organizer" src="/images/organizers/planetum.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
+
+{{< div-end >}}
+
+{{< div-start c="black" bg-c="white" id="partner-container" >}}
+
+## Partneři projektu
+
+{{< div-start c="dark-blue1" bg-c="white" id="main-partners" >}}
+
+{{< fig class="main-partner" src="/images/partners/ostrava.png" alt="Ostrava!!!" link="https://www.ostrava.cz/cs" cap="Za finanční podpory" >}}
+
+{{< div-end >}}
+
+{{< div-start c="dark-blue1" bg-c="white" id="main-partners" >}}
+
+{{< fig class="main-partner" src="/images/organizers/cmgp.png" alt="CMGP" link="https://www.cmgp.cz/" cap="Hlavní parnter" >}}
+
+{{< div-end >}}
+
+{{< div-start c="dark-blue1" bg-c="white" id="partners" >}}
+
+{{< fig class="partner" src="/images/partners/esero.png" alt="ESERO" link="" cap="Partner" >}}
+
+{{< fig class="partner" src="/images/partners/asu.png" alt="ASU AVČR" link="https://www.asu.cas.cz/" cap="Partner" >}}
+
+{{< fig class="partner" src="/images/partners/dov.png" alt="DOV" link="https://www.dolnivitkovice.cz/" cap="Partner" >}}
+
+{{< fig class="partner" src="/images/partners/planetarium.png" link="https://planetko.cz/cs/" cap="Partner" >}}
+
+{{< div-end >}}
+
+{{< div-end >}}

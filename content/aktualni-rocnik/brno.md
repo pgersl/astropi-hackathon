@@ -75,15 +75,17 @@ Cyrilometodějské gymnázium a střední odborná škola pedagogická Brno, Ler
 
 {{< fig class="main-partner" src="/images/partners/vesmir.png" alt="Vesmir.cz" link="https://vesmir.cz/cz/" cap="Hlavní partner">}}
 
+{{< fig class="main-partner" src="/images/organizers/planetum.png" alt="Planetum" link="https://www.planetum.cz/" cap="Hlavní partner" >}}
+
 {{< div-end >}}
 
 {{< div-start c="dark-blue1" bg-c="white" id="partners" >}}
 
 {{< fig class="partner" src="/images/partners/esero.png" alt="ESERO" link="" cap="Partner" >}}
 
-{{< fig class="partner" src="/images/organizers/planetum.png" alt="Planetum" link="https://www.planetum.cz/" cap="Partner" >}}
-
 {{< fig class="partner" src="/images/partners/sab.png" alt="SAB" link="https://www.sabaerospace.cz/" cap="Partner" >}}
+
+{{< fig class="partner" src="/images/partners/ohb.png" alt="OHB Czechspace" link="https://www.ohb-czech.cz/" cap="Partner" >}}
 
 {{< fig class="partner" src="/images/partners/hvezdarna.png" alt="Hvězdárna a planetárium Brno" link="https://www.hvezdarna.cz/" cap="Partner" >}}
 

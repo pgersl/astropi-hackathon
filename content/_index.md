@@ -6,22 +6,31 @@ layout: home
 
 # AstroPi Hackathon
 
+Baví tě vesmír, věda a nebojíš se zkusit i programování?
 
-Baví tě vesmír, věda a občas zkusíš i programování?
-
-
-Tak vem svoje kamarády a kamarádky a propojte všechna tato odvětví na akci **AstroPi Hackathon**!
+Tak vezmi svoje kamarády a kamarádky a propojte všechna tato odvětví na akci AstroPi Hackathon, kde začnete svou cestu ke hvězdám!
 
 {{< div-end >}}
 
 {{< div-start c="dark-blue1" bg-c="white" id="info" >}}
 
-**AstroPi Challenge** je mezinárodní týmová soutěž, kterou pořádá Evropská vesmírná agentura ESA. Týmy po dvou až šesti členech do 19 let mají za úkol **vymyslet svůj vlastní vědecký experiment** a svoje poznatky potom sepsat. Samotný experiment probíhá po dobu tří hodin na palubě **mezinárodní vesmírné stanice ISS** na dvou RaspberryPi počítačích. Na měření je potřeba napsat **program v jazyce Python**, který na stanici vše provede. Naměřená data pak týmy získají zpět a vyvodí z nich svoje závěry.
+**Nevíš jak na to, ani kde začít? To vůbec nevadí, všechno tě naučíme!**
 
+**AstroPi Hackathon** je podpůrnou akcí mezinárodní týmové soutěže AstroPi Challenge. Účelem Hackathonu je pomoci studentům připravit se na soutěž tak, aby ji mohli úspěšně dokončit. To znamená, že se může přihlásit i člověk, který neumí vůbec programovat! Chce to jen mít zájem se učit a poznávat! Astropi je skvělý začátek vesmírné kariéry!
 
-Podívej se na výherce letošního ročníku [zde](https://www.esa.int/Education/AstroPI/Astro_Pi_Mission_Space_Lab_2021_22_The_Winners)!
+{{< fig class="info-logo" link="https://astro-pi.org/" src="/images/base/astropi-logo.png" alt="AstroPi Challenge logo" >}}
 
+**AstroPi Challenge** je mezinárodní týmová soutěž, kterou pořádá Evropská kosmická agentura ESA ve spolupráci s Raspberry Pi Foundation. Soutěž se skládá ze dvou misí: Mission Zero a Mission Space Lab.
 
+{{< fig class="info-logo" link="https://astro-pi.org/mission-zero/" src="/images/base/zero.png" alt="AstroPi Challenge logo" >}}
+
+**Mission Zero** je rychlejší a jednodušší a nabízí možnost nechat svůj kód běžet ve vesmíru! Součástí miste je napsat jednoduchý program, který bude snímat údaje ze snímače barev a svítivosti na počítači Astro Pi na palubě Mezinárodní vesmírné stanice ISS, a použijte ho k nastavení barvy pozadí na obrázku, který uvidí astronauti při plnění svých každodenních úkolů. Přihlášky do soutěže Mission Zero 2023/24 je možné podávat od 18. září 2023 do 25. března 2024. Účastnit se mohou až 4 členné týmy do 19 let.
+
+{{< fig class="info-logo" link="https://astro-pi.org/mission-space-lab/" src="/images/base/space-lab.png" alt="AstroPi Challenge logo" >}}
+
+**Mission Space** Lab nabízí možnost provádět vědecké experimenty na palubě Mezinárodní vesmírné stanice. V letošním ročníku Mission Space Lab vyzývají astronauti ESA týmy, aby vyřešily vědecký úkol napsáním programu v jazyce Python. Úkolem je shromáždit data pomocí počítačů Astro Pi a vypočítat rychlost, kterou se pohybuje ISS. Data poté týmy zpracují a připraví krátkou závěrečnou zprávu.
+
+**Registrace do mezinárodní soutěže** je otevřena od 6. listopadu 2023 do 19. února 2024. Účastnit se mohou týmy po 2 až 6 členech do 19 let.
 
 Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 
