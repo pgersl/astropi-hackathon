@@ -372,6 +372,7 @@ a.mention {
 @media (max-width:450px) {
     .contact-picture {
         margin-right: 0;
+        margin-bottom: 1.4em;
     }
     .contact-picture img {
         width: 70%;
