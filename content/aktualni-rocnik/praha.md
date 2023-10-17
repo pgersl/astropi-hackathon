@@ -39,6 +39,14 @@ Planetárium Praha, Královská obora 233, Praha 7
 
 {{< div-end >}}
 
+{{< div-start c="dark-blue1" bg-c="white" id="present-info-item" >}}
+
+{{< icon class="present-info-icon fa-solid fa-house" >}}
+
+Ubytování a strava zajištěna
+
+{{< div-end >}}
+
 {{< div-end >}}
 
 {{< div-end >}}
