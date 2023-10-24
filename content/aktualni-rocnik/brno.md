@@ -89,8 +89,6 @@ Ubytování a strava zajištěna
 
 {{< div-start c="dark-blue1" bg-c="white" id="partners" >}}
 
-{{< fig class="partner" src="/images/partners/esero.png" alt="ESERO" link="" cap="Partner" >}}
-
 {{< fig class="partner" src="/images/partners/sab.png" alt="SAB" link="https://www.sabaerospace.cz/" cap="Partner" >}}
 
 {{< fig class="partner" src="/images/partners/ohb.png" alt="OHB Czechspace" link="https://www.ohb-czech.cz/" cap="Partner" >}}

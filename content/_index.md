@@ -38,7 +38,7 @@ Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 
 {{< div-start c="white" bg-c="red" id="present">}}
 
-# [Aktuální ročník](/aktualni-rocnik)
+# Aktuální ročník
 
 {{< div-start id="location-container" >}}
 

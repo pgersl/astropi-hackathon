@@ -2,44 +2,67 @@
 /*aktualni-rocnik*/
 
 .location-container {
+    width: 80vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    width: 90vw;
 }
 
-.button-link {
-    width: 250px;
-    padding: .7em;
-    margin: 1em;
-    text-transform: uppercase;
-    border-radius: 15px;
-    text-decoration: none;
-    text-align: center;
-    font-size: calc(var(--font-size) * 1.2);
-    font-weight: bold;
+.location {
+    padding: 1.5em;
 }
-.button-link:hover {
-    color: var(--white);
+
+.location * {
+    padding: 0;
 }
 
 .place {
-    background-color: var(--red);
+    display: block;
+    width: 180px;
+    padding: .3em;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #fc2945;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: calc(var(--font-size) * 1.2);
+    font-weight: 900;
+}
+
+.place:hover, .registration-btn a:hover {
+    box-shadow: var(--shadow);
     color: var(--white);
 }
 
-.place:hover {
+.location-date {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.registration-btn a {
+    padding: .4em;
     background-color: #fc2945;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 15px;
 }
 
 .registration-button {
     background-color: #fc2945;
     color: var(--white);
+    text-decoration: none;
+    padding: 1em 2.5em;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-radius: 20px;
 }
 .registration-button:hover {
     box-shadow: var(--shadow);
+    color: var(--white);
 }
 
 .present-info-grid {

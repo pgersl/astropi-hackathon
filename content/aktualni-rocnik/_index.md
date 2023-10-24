@@ -9,14 +9,16 @@ layout: single
 
 {{< div-end >}}
 
-{{< div-start c="white" bg-c="white" id="present-info" >}}
+{{< div-start c="white" bg-c="red" id="present">}}
 
 {{< div-start id="location-container" >}}
 
-{{< button class="place" link="/aktualni-rocnik/praha" text="Praha" >}}
+{{< location place="Praha" link="/aktualni-rocnik/praha" date="17. - 18. 11. 2023" form="https://forms.gle/h9oMgjGTX3ePUfaA6" >}}
 
-{{< button class="place" link="/aktualni-rocnik/brno" text="Brno" >}}
+{{< location place="Brno" link="/aktualni-rocnik/brno" date="24. - 25. 11. 2023" form="https://forms.gle/gxyvPixbjqmGNUuH9" >}}
 
-{{< button class="place" link="/aktualni-rocnik/ostrava" text="Ostrava" >}}
+{{< location place="Ostrava" link="/aktualni-rocnik/ostrava" date="2. - 3. 12. 2023" form="https://forms.gle/XDauRy5Ubn3ztniy9" >}}
+
+{{< div-end >}}
 
 {{< div-end >}}
