@@ -83,8 +83,6 @@ Ubytování a strava zajištěna
 
 {{< div-start c="dark-blue1" bg-c="white" id="partners" >}}
 
-{{< fig class="partner" src="/images/partners/esero.png" alt="ESERO" link="" cap="Partner" >}}
-
 {{< fig class="partner" src="/images/partners/asu.png" alt="ASU AVČR" link="https://www.asu.cas.cz/" cap="Partner" >}}
 
 {{< fig class="partner" src="/images/partners/dov.png" alt="DOV" link="https://www.dolnivitkovice.cz/" cap="Partner" >}}
