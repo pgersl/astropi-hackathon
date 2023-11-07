@@ -99,6 +99,10 @@ Ubytování a strava zajištěna
 
 {{< fig class="partner" src="/images/partners/jcmm.png" alt="JCMM" link="https://www.jcmm.cz/" cap="Partner" >}}
 
+{{< fig class="partner" src="/images/partners/s-and-t-club.png" alt="Science and technology club Brno" cap="Partner">}}
+
+{{< fig class="partner" src="/images/partners/kosmonautix.png" alt="Kosmonautix.cz" cap="Partner" >}}
+
 {{< fig class="partner" src="/images/partners/asu.png" alt="ASU AVČR" link="https://www.asu.cas.cz/" cap="Partner" >}}
 
 {{< div-end >}}
