@@ -34,6 +34,14 @@ Tak vezmi svoje kamarády a kamarádky a propojte všechna tato odvětví na akc
 
 Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 
+Užitečné odkazy:
+- [Mission Zero](https://astro-pi.org/mission-zero)
+- [Mission Zero Resources](https://astro-pi.org/mission-zero/resources)
+- [Sense Hat Emulator](https://trinket.io/sense-hat)
+- [Mission Space Lab](https://astro-pi.org/mission-space-lab/)
+- [Mission Space Lab Resources](https://astro-pi.org/mission-space-lab/resources)
+
+
 {{< div-end >}}
 
 {{< div-start c="white" bg-c="red" id="present">}}
