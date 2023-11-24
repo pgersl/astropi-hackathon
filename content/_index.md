@@ -37,7 +37,8 @@ Více o soutěži se dočteš [tady](https://astro-pi.org/mission-space-lab/)!
 Užitečné odkazy:
 - [Mission Zero](https://astro-pi.org/mission-zero)
 - [Mission Zero Resources](https://astro-pi.org/mission-zero/resources)
-- [Sense Hat Emulator](https://trinket.io/sense-hat)
+- [Sense Hat Emulator](https://missions.astro-pi.org/en/mz/code_submissions/new)
+- [Příkazy Sense Hat](https://missions.astro-pi.org/en/mz/code_submissions/new)
 - [Mission Space Lab](https://astro-pi.org/mission-space-lab/)
 - [Mission Space Lab Resources](https://astro-pi.org/mission-space-lab/resources)
 
