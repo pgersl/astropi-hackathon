@@ -4,9 +4,13 @@
         <p>{{.Get "summary"}}</p>
         <a href="{{.Get "file"}}">Číst dále...</a>
     </div>
-    <div class="gallery-anchor">
-        <a href="{{.Get "gallery"}}">
-            <img src="{{.Get "img"}}" loading="lazy">
-        </a>
-    </div>
+    {{with .Get "gallery"}}
+        <div class="gallery-anchor">
+            <a href="{{.}}">
+    {{end}}
+    {{with .Get "img"}}
+                <img src="{{.}}" loading="lazy">
+            </a>
+        </div>
+    {{end}}
 </div>

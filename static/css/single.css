@@ -199,8 +199,8 @@
     width: 100%;
 }
 .main-partner, .partner {
-    border-radius: 30px;
-    padding-top: .3em;
+    border-radius: 15px;
+    padding-top: .4em;
 }
 .main-partner:hover, .partner:hover {
     background-color: var(--grey);
@@ -223,9 +223,10 @@
 
 .mention-container {
     margin: 1em;
+    padding: 1em .15em;
     max-width: 15em;
-    border: solid var(--dark-blue4) 4px;
-    border-radius: 30px;
+    border: solid var(--dark-blue4) 3px;
+    border-radius: 15px;
     color: var(--dark-blue3);
     background-color: var(--light-blue3);
     font-size: calc(var(--font-size) * 0.76);
@@ -236,13 +237,12 @@
 
 a.mention {
     text-decoration: none;
-    margin: 0 1em 1em 1em;
+    margin: 0 1em 0 0;
     font-weight: 500;
 }
 
 .mention-container p {
     font-style: italic;
-    margin-top: 1em;
     font-size: calc(var(--font-size) * 0.7);
 }
 

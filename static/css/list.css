@@ -4,12 +4,13 @@
 }
 
 .taxonomy {
-    max-width: 50em;
+    width: 50em;
     display: flex;
     flex-direction: row;
-    border: 4px solid var(--dark-blue1);
-    border-radius: 30px;
-    padding: 1em 1.5em;
+    gap: 1em;
+    box-shadow: 0 0 10px #00000071;
+    border-radius: 15px;
+    padding: 2em;
     margin-bottom: 2.5em;
 }
 

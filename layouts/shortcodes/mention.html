@@ -1,4 +1,4 @@
 <div class="mention-container">
     <p>{{.Get "text"}}</p>
-    <a class="mention" href="{{.Get "link"}}" target="_blank">{{.Get "title"}}</a>
+    {{with .Get "link"}}<a class="mention" href="{{.}}" target="_blank">{{end}}{{with .Get "title"}}{{.}}</a>{{end}}
 </div>
