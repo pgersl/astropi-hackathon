@@ -23,7 +23,7 @@ layout: single
 
 {{< contact pic="/images/base/martin.jpg" name="Martin Doušek" position="organizátor, fotograf" mail="mdousek@cmgp.cz" tel="+420 739 483 920" >}}
 
-{{< contact pic="/images/base/marko.jpg" name="Marko Mesarč" position="mentor pro Mission Zero" mail="mesarc@hvezdarna.cz" tel="420 773 750 568" >}}
+{{< contact pic="/images/base/marko.jpg" name="Marko Mesarč" position="koordinátor pro Mission Zero" mail="mesarc@hvezdarna.cz" tel="420 773 750 568" >}}
 
 ## Praha
 
