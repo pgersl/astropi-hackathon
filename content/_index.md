@@ -57,6 +57,8 @@ Užitečné odkazy:
 
 {{< location place="Ostrava" link="/aktualni-rocnik/ostrava" date="2. - 3. 12. 2023" form="https://forms.gle/XDauRy5Ubn3ztniy9" >}}
 
+{{< location place="Pardubice" link="/aktualni-rocnik/pardubice" date="15. - 16. 12. 2023" form="https://forms.gle/SKsHXHgTPFaV35T27" >}}
+
 {{< div-end >}}
 
 {{< div-end >}}
@@ -68,5 +70,7 @@ Užitečné odkazy:
 {{< fig class="organizer" src="/images/organizers/cmgp.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
 
 {{< fig class="organizers" src="/images/organizers/planetum.png" alt="Logo Planetum" link="https://www.planetum.cz/" >}}
+
+{{< fig class="organizer" src="/images/organizers/technecium.png" alt="Logo Technecium" link="https://technecium.org/" >}}
 
 {{< div-end >}}

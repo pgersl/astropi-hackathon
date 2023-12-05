@@ -19,6 +19,8 @@ layout: single
 
 {{< location place="Ostrava" link="/aktualni-rocnik/ostrava" date="2. - 3. 12. 2023" form="https://forms.gle/XDauRy5Ubn3ztniy9" >}}
 
+{{< location place="Pardubice" link="/aktualni-rocnik/pardubice" date="15. - 16. 12. 2023" form="https://forms.gle/SKsHXHgTPFaV35T27" >}}
+
 {{< div-end >}}
 
 {{< div-end >}}
