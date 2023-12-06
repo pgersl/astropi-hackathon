@@ -61,7 +61,7 @@ Ubytování a strava zajištěna
 
 ## Organizátor
 
-{{< fig class="organizer" src="/images/organizers/planetum.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
+{{< fig class="organizer" src="/images/organizers/planetum.png" alt="Logo CMGP" link="https://www.planetum.cz/" >}}
 
 {{< div-end >}}
 

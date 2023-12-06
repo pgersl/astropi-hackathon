@@ -61,7 +61,7 @@ Ubytování a strava zajištěna
 
 ## Organizátor
 
-{{< fig class="organizer" src="/images/organizers/planetum.png" alt="Logo CMGP" link="https://www.cmgp.cz/" >}}
+{{< fig class="organizer" src="/images/organizers/planetum.png" alt="Logo CMGP" link="https://www.planetum.cz/" >}}
 
 {{< div-end >}}
 
@@ -88,6 +88,8 @@ Ubytování a strava zajištěna
 {{< fig class="partner" src="/images/partners/dov.png" alt="DOV" link="https://www.dolnivitkovice.cz/" cap="Partner" >}}
 
 {{< fig class="partner" src="/images/partners/planetarium.png" link="https://planetko.cz/cs/" cap="Partner" >}}
+
+{{< fig class="partner" src="/images/partners/Tiet.png" link="https://www.tietoevry.com/cz/" cap="Partner" >}}
 
 {{< div-end >}}
 
