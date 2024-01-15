@@ -18,6 +18,8 @@ layout: single
 
 {{< button link="#tldr" text="tl;dr" class="article-button" >}}
 
+{{< button link="/minule-rocniky/23/23brno-gallery" text="galerie" class="article-button" >}}
+
 {{< div-end >}}
 
 ## O akci

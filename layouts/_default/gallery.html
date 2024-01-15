@@ -18,7 +18,7 @@
                     {{$path := (printf "%s%s" "static/images/galerie/" .Params.gallery)}}
                     {{$contents := readDir $path}}
                     {{$format := .Params.format}}
-                    {{range seq  (len $contents)}}
+                    {{range seq  (sub (len $contents) 1)}}
                         {{$name := (printf "%s%s" (string .) $format)}} 
                         {{$filename := printf "%s/%s" (replace $path "static" "") $name}}
                         {{$name := (printf (replace $name $format ""))}}
