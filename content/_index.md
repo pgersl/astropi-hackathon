@@ -44,7 +44,7 @@ Užitečné odkazy:
 
 Podívejte se, jak o AstroPi Hackathonu mluví jeden z hlavních organizátorů!
 
-<iframe width="560" height="315" style="padding-top:1em" src="https://www.youtube.com/embed/Smb-Vig1Dv8?si=vOgUt1l41nrcT-PF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="padding-top:1em; max-width:560px" src="https://www.youtube.com/embed/Smb-Vig1Dv8?si=vOgUt1l41nrcT-PF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 {{< div-end >}}
 
