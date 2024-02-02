@@ -116,8 +116,6 @@ Odborná porota nakonec rozhodla takto:
 
 ## Ohlasy
 
-Podívejte se na články o tomto ročníku!
-
 {{< div-start id="mentions-container" >}}
 
 {{< mention title="purkyňka.cz" text="\"Mentoři nám vždycky pomohli naše nápady zdokonalit, měli připravené logické argumenty a vysvětlili nám, jak by náš plán mohl fungovat, či naopak nefungovat.\"" link="https://www.purkynka.cz/aktualne/zapojili-jsme-se-do-mezinarodni-tymove-akce-astropi-hackathon/" >}}

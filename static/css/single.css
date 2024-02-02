@@ -1,6 +1,11 @@
 
 /*aktualni-rocnik*/
 
+.present {
+    background-color: var(--red);
+    color: var(--white);
+}
+
 .location-container {
     width: 80vw;
     display: flex;

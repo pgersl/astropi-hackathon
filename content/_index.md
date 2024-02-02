@@ -42,6 +42,9 @@ Užitečné odkazy:
 - [Mission Space Lab](https://astro-pi.org/mission-space-lab/)
 - [Mission Space Lab Resources](https://astro-pi.org/mission-space-lab/resources)
 
+Podívejte se, jak o AstroPi Hackathonu mluví jeden z hlavních organizátorů!
+
+<iframe width="560" height="315" style="padding-top:1em" src="https://www.youtube.com/embed/Smb-Vig1Dv8?si=vOgUt1l41nrcT-PF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 {{< div-end >}}
 
@@ -49,17 +52,7 @@ Užitečné odkazy:
 
 # Aktuální ročník
 
-{{< div-start id="location-container" >}}
-
-{{< location place="Praha" link="/aktualni-rocnik/praha" date="17. - 18. 11. 2023" form="https://forms.gle/h9oMgjGTX3ePUfaA6" >}}
-
-{{< location place="Brno" link="/aktualni-rocnik/brno" date="24. - 25. 11. 2023" form="https://forms.gle/gxyvPixbjqmGNUuH9" >}}
-
-{{< location place="Ostrava" link="/aktualni-rocnik/ostrava" date="2. - 3. 12. 2023" form="https://forms.gle/XDauRy5Ubn3ztniy9" >}}
-
-{{< location place="Pardubice" link="/aktualni-rocnik/pardubice" date="15. - 16. 12. 2023" form="https://forms.gle/SKsHXHgTPFaV35T27" >}}
-
-{{< div-end >}}
+{{< now >}}
 
 {{< div-end >}}
 

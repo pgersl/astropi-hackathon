@@ -82,7 +82,7 @@ V tomto nelehkém úkolu jim byli po celou dobu Hackathonu oporou odborní mento
 
 {{< div-end >}}
 
-{{< div-start c="white" bg-c="dark-blue3" id="results" >}}
+{{< div-start c="white" bg-c="dark-blue4" id="results" >}}
 
 ## Výsledky
 
@@ -93,6 +93,22 @@ Ve starší kategorii ukořistil zlatou medaili tým **Vesmírný moučník**, v
 {{< pic class="past-photo" path="/images/past/23brno/2.webp" alt="winner1" cap="Tým Gupnik (s organizátory a členy poroty)" >}}
 
 {{< pic class="past-photo" path="/images/past/23brno/3.webp" alt="winner2" cap="Tým Vesmírný moučník (s organizátory a členy poroty)" >}}
+
+{{< div-end >}}
+
+{{< div-start c="white" bg-c="dark-blue3" id="mentions" >}}
+
+## Ohlasy
+
+{{< div-start id="mentions-container" >}}
+
+{{< mention title="zaplzni.cz" text="\"Úkolu jsme se zhostili ze všech nejlépe a získali jsme první místo.\"" link="https://zaplzni.cz/domazlicky-gymnazista-vali-na-poli-vedy/" >}}
+
+{{< mention title="gypce.cz" text="\"Na výsledném programu jsme pracovali i přes noc a nakonec jsme skončili na druhém místě v kategorii mladších účastníků.\"" link="https://www.gypce.cz/2023/12/01/uspech-nasich-studentu-na-astropi-hackathonu-brno-2023/" >}}
+
+{{< mention title="OHB Czechspace" text="\"We are happy that we can support enthusiastic and ambitious students! 🙏 \"" link="https://www.linkedin.com/feed/update/urn:li:activity:7158493137114484738?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7158493137114484738%29" >}}
+
+{{< div-end >}}
 
 {{< div-end >}}
 

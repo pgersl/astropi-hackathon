@@ -19,7 +19,7 @@ layout: single
 
 {{< contact pic="/images/base/matej.jpg" name="Matěj Šicner" position="organizátor" mail="msicner@cmgp.cz" tel="+420 731 724 502" >}}
 
-{{< contact pic="/images/base/oliver.jpg" name="Oliver Klimeš" position="organizátor, fotograf, web" mail="oklimes@cmgp.cz" tel="+420 721 198 808" site="oliverklimes.com" >}}
+{{< contact pic="/images/base/oliver.jpg" name="Oliver Klimeš" position="organizátor, fotograf" mail="oklimes@cmgp.cz" tel="+420 721 198 808" site="oliverklimes.com" >}}
 
 {{< contact pic="/images/base/martin.jpg" name="Martin Doušek" position="organizátor, fotograf" mail="mdousek@cmgp.cz" tel="+420 739 483 920" >}}
 
