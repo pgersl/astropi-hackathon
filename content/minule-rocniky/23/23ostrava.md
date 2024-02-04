@@ -15,6 +15,8 @@ layout: single
 
 {{< button link="#tldr" text="tl;dr" class="article-button" >}}
 
+{{< button link="/minule-rocniky/23/23ostrava-gallery" text="galerie" class="article-button" >}}
+
 {{< div-end >}}
 
 ## O akci
