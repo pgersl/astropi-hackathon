@@ -41,6 +41,7 @@ Užitečné odkazy:
 - [Příkazy Sense Hat](https://missions.astro-pi.org/en/mz/code_submissions/new)
 - [Mission Space Lab](https://astro-pi.org/mission-space-lab/)
 - [Mission Space Lab Resources](https://astro-pi.org/mission-space-lab/resources)
+- [Návod na Mission Space Lab](https://youtu.be/_qhlgXfpOco?si=i4G5suVAHoftZK9U)
 
 Podívejte se, jak o AstroPi Hackathonu mluví jeden z hlavních organizátorů!
 
