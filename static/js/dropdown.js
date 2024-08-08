@@ -14,9 +14,7 @@ dropdownLinks.forEach(dropdownLink => {
         }
     });
 
-    dropdownLink.addEventListener('click', (event) => {
-        event.preventDefault();
-
+    dropdownLink.addEventListener('click', () => {
         if (isOpen) {
             dropdownContent.style.display = 'none';
         } else {
