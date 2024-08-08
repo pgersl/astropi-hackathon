@@ -1,125 +1,126 @@
-.logos {
-    padding: var(--spacer);
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.logos img {
-    overflow: hidden;
-    object-fit: contain;
-    background-size: cover;
-    background-position: center;
-    vertical-align: middle;
-    padding: .3em 1em .3em 1em;
-    width: 450px;
-}
-.header {
-    text-align: center;
-}
-.header h1 {
-    font-size: calc(var(--font-size) * 2.4);
-}
-.news {
-    background-color: var(--dark-blue3);
+#hero-section {
+    background: var(--transparent-gradient), url('/imgs/home/hero.webp') no-repeat center center/cover;
     color: var(--white);
+    padding: 10em 0;
+}
+#hero-section .section-content {
+    gap: 2em;
+}
+#hero-section .primary-button {
+    font-size: var(--h3-size);
+    width: fit-content;
 }
 
-.news ul {
-    list-style-type: disc;
-    padding-left: 2.4em;
+#about-section p {
+    width: 30%;
 }
 
-.news-container {
-    margin-bottom: 3em;
-}
-
-.news-container .news-title {
-    padding-bottom: 0;
-}
-
-.news-container .news-date {
-    padding-top: 0;
-    font-size: calc(var(--font-size) * 0.7);
-    margin-left: 3px;
-}
-
-.present h1 a {
-    text-decoration: none;
-}
-
-.present {
-    background-color: var(--red);
-    color: var(--white);
-}
-
-.location-container {
-    width: 80vw;
-    display: flex;
+#us-section .section-content {
     flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+#us-section .section-row {
+    margin: 1.3em 0 2em 0;
+    justify-content: flex-start;
+    gap: 2em;
+}
+#us-section .section-row img {
+    height: 40px;
+    width: auto;
+}
+
+#accomplishments-section .section-row {
     justify-content: space-evenly;
 }
-
-.location {
-    padding: 1.5em;
+.accomplishment-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.accomplishment-number {
+    font-weight: bold;
+    font-size: var(--mega-size);
+    color: var(--light-blue2);
 }
 
-.location * {
-    padding: 0;
+#partners-section .scrolling-row {
+    margin: 1.2em 0 2.5em 0;
 }
-
-.place {
-    display: block;
-    width: 180px;
-    padding: .3em;
-    margin: 0;
-    text-transform: uppercase;
-    background-color: #fc2945;
-    color: var(--white);
-    text-decoration: none;
-    border-radius: 15px;
-    font-size: calc(var(--font-size) * 1.2);
-    font-weight: 900;
-}
-
-.place:hover, .registration-btn a:hover {
-    box-shadow: var(--shadow);
-    color: var(--white);
-}
-
-.location-date {
-    margin-top: 1em;
+.sponsor-rolling img {
+    height: 45px;
+    width: auto;
     margin-bottom: 1em;
 }
 
-.registration-btn a {
-    padding: .4em;
-    background-color: #fc2945;
+#call-to-action-section {
+    background: var(--transparent-gradient), url('/imgs/home/cta.jpg') no-repeat center top/cover;
     color: var(--white);
-    text-decoration: none;
-    border-radius: 15px;
+    padding: 6em 0;
 }
-.info p:first-of-type {
-    text-align: center;
-    margin-bottom: 2em;
+#call-to-action-section .section-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-.info-logo {
-    width: 120px;
-    margin: 1em auto;
+#call-to-action-section .section-row {
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
-.info-logo img {
-    width: 100%;
+#call-to-action-section .section-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 50%;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.location .main-button {
+    font-size: var(--h3-size);
+}
+.location.alert p {
+    color: var(--pink);
 }
 
-@media (max-width:600px) {
-    .logos img {
-        width: 300px;
+/* MEDIA */
+
+@media (max-width:850px) {
+    #call-to-action-section .section-content-left {
+        width: 100%;
+    }
+    #call-to-action-section .section-content {
+        flex-direction: column;
+        gap: 4em;
+    }
+    #call-to-action-section .section-row {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:500px) {
+    .scrolling-row {
+        gap: 2em;
+    }
+    .scrolling-row img {
+        height: 20px;
+    }
+    #about-section .section-row {
+        flex-direction: column;
+    }
+    #about-section p {
+        width: 100%;
+    }
+    #accomplishments-section .section-row {
+        gap: 2em;
+        flex-wrap: wrap;
     }
 }

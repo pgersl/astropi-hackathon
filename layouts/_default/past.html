@@ -1,0 +1,94 @@
+{{define "styles"}}
+    <link rel="stylesheet" type="text/css" href="/css/past.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/>
+{{end}}
+{{define "scripts"}}<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>{{end}}
+
+{{define "main"}}
+    {{partial "header.html" .}}
+    <section id="content">
+        <div class="section-content">
+            <div class="section-content-left">
+                {{.Content}}
+                <a class="secondary-button" href="/docs/{{.Params.fullReport}}" target="_blank">Kompletní zpráva</a>
+            </div>
+            <img src="/imgs/past/{{.Params.gallery}}/{{.Params.reportPhoto}}">
+        </div>
+    </section>
+    <section id="winners">
+        <div class="section-content">
+            <h5>Výsledky</h5>
+            <h1>Vítězové!</h1>
+            <div class="section-row">
+                <div class="winner-container">
+                    <img src="/imgs/past/{{.Params.gallery}}/{{.Params.winnerOldPhoto}}">
+                    <h3>{{.Params.winnerOldName}}</h3>
+                </div>
+                {{if .Params.winnerYoungPhoto}}
+                    <div class="winner-container">
+                        <img src="/imgs/past/{{.Params.gallery}}/{{.Params.winnerYoungPhoto}}">
+                        <h3>{{.Params.winnerYoungName}}</h3>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="section-content">
+            <h5>Galerie</h5>
+            <h1>Fotky z akce</h1>
+            <div class="gallery section-row scrolling-row">
+                {{$path := (printf "%s%s" "static/imgs/gallery/" .Params.gallery)}}
+                {{$contents := readDir $path}}
+                {{$format := .Params.format}}
+                {{range seq  (sub (len $contents) 1)}}
+                    {{$name := (printf "%s%s" (string .) $format)}} 
+                    {{$filename := printf "%s/%s" (replace $path "static" "") $name}}
+                    {{$name := (printf (replace $name $format ""))}}
+                    <div class="gallery-photo">
+                        <a href="{{$filename}}" class="glightbox" data-gallery="gallery1">
+                            <img src="{{$filename}}" alt="image" loading="lazy"/>
+                        </a>
+                    </div>
+                {{end}}
+            </article>
+            <script>
+                const lightbox = GLightbox({
+                        touchNavigation: true,
+                        loop: true,
+                    });
+            </script>
+
+        </div>
+    </section>
+    <section id="logos">
+        <div class="section-content">
+            <div class="logo-container" id="organizers">
+                <h5>Organizátoři</h5>
+                <div class="logos-container">
+                    {{range .Params.organizers}}
+                        <img src="/imgs/organizers/{{.}}">
+                    {{end}}
+                </div>
+            </div>
+            {{if .Params.mainPartners}}
+                <div class="logo-container" id="main-partners">
+                    <h5>Hlavní partneři</h5>
+                    <div class="logos-container">
+                        {{range .Params.mainPartners}}
+                            <img src="/imgs/partners/{{.}}">
+                        {{end}}
+                    </div>
+                </div>
+            {{end}}
+            <div class="logo-container" id="partners">
+                <h5>Partneři</h5>
+                <div class="logos-container">
+                    {{range .Params.partners}}
+                        <img src="/imgs/partners/{{.}}">
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </section>
+{{end}}

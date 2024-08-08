@@ -9,19 +9,19 @@ enableEmoji = "true"
     unsafe = "true"
 [menus]
     [[menu.main]]
+        identifier = "domu"
+        name = "Domů"
+        url = "/"
+        weight = "1"
+    [[menu.main]]
         identifier = "aktualni-rocnik"
         name = "Aktuální ročník"
         url = "/aktualni-rocnik"
-        weight = "1"
+        weight = "2"
     [[menu.main]]
         identifier = "minule-rocniky"
         name = "Minulé ročníky"
         url = "/minule-rocniky"
-        weight = "2"
-    [[menu.main]]
-        identifier = "novinky"
-        name = "Novinky"
-        url = "/novinky"
         weight = "3"
     [[menu.main]]
         identifier = "astropi"
@@ -33,3 +33,23 @@ enableEmoji = "true"
         name = "Kontakt"
         url = "/kontakt"
         weight = "5"
+    [[menu.past]]
+        identifier = "praha22"
+        name = "Praha 2022"
+        url = "/minule-rocniky/praha22"
+        weight = "99"
+    [[menu.past]]
+        identifier = "brno22"
+        name = "Brno 2022"
+        url = "/minule-rocniky/brno22"
+        weight = "98"
+    [[menu.past]]
+        identifier = "brno23"
+        name = "Brno 2023"
+        url = "/minule-rocniky/brno23"
+        weight = "97"
+    [[menu.past]]
+        identifier = "ostrava23"
+        name = "Ostrava 2023"
+        url = "/minule-rocniky/ostrava23"
+        weight = "96"

@@ -1,0 +1,89 @@
+{{define "styles"}}<link rel="stylesheet" href="/css/contact.css">{{end}}
+{{define "scripts"}}<script src="/js/filter.js" defer></script>{{end}}
+
+{{define "main"}}
+    <section id="main-contact">
+        <div class="section-content">{{.Content}}</div>
+    </section>
+    <section id="heads">
+        <div class="section-content">
+            <h5>Náš tým</h5>
+            <h1>Organizátoři</h1>
+            <div class="contact-filter">
+                <button class="secondary-button filter-button" id="brno">Brno</button>
+                <button class="secondary-button filter-button" id="praha">Praha</button>
+                <button class="secondary-button filter-button" id="ostrava">Ostrava</button>
+            </div>
+            <div class="section-row">
+                <div class="contact filter-item brno">
+                    <img src="/imgs/organizers/petr.jpg">
+                    <div class="contact-info">
+                        <strong>Petr Geršl</strong>
+                        <p>organizátor, web, spolupráce</p>
+                        <div class="contact-info-links">
+                            <p><i class="fa-regular fa-envelope"></i><a href="mailto:pgersl@cmgp.cz">pgersl@cmgp.cz</a></p>
+                            <p><i class="fa-solid fa-phone"></i><a href="tel:731347915">731 347 915</a></p>
+                            <p><i class="fa-solid fa-globe"></i><a href="https://pgersl.xyz/">pgersl.xyz</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact filter-item brno">
+                    <img src="/imgs/organizers/matej.jpg">
+                    <div class="contact-info">
+                        <strong>Matěj Šicner</strong>
+                        <p>organizátor</p>
+                        <div class="contact-info-links">
+                            <p><i class="fa-regular fa-envelope"></i><a href="mailto:msicner@cmgp.cz">msicner@cmgp.cz</a></p>
+                            <p><i class="fa-solid fa-phone"></i><a href="tel:731724502">731 724 502</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact filter-item brno">
+                    <img src="/imgs/organizers/oliver.jpg">
+                    <div class="contact-info">
+                        <strong>Oliver Klimeš</strong>
+                        <p>organizátor, fotograf, grafik</p>
+                        <div class="contact-info-links">
+                            <p><i class="fa-regular fa-envelope"></i><a href="mailto:oklimes@cmgp.cz">oklimes@cmgp.cz</a></p>
+                            <p><i class="fa-solid fa-phone"></i><a href="tel:721198808">721 198 808</a></p>
+                            <p><i class="fa-solid fa-globe"></i><a href="https://www.oliverklimes.com/">oliverklimes.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact filter-item brno">
+                    <img src="/imgs/organizers/marko.jpg">
+                    <div class="contact-info">
+                        <strong>Marko Mesarč</strong>
+                        <p>koordinátor Mission Zero</p>
+                        <div class="contact-info-links">
+                            <p><i class="fa-regular fa-envelope"></i><a href="mailto:mesarc@hvezdarna.cz">mesarc@hvezdarna.cz</a></p>
+                            <p><i class="fa-solid fa-phone"></i><a href="tel:773750568">773 750 568</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact filter-item praha ostrava">
+                    <img src="/imgs/organizers/spratek.png">
+                    <div class="contact-info">
+                        <strong>Jan Spratek</strong>
+                        <p>organizátor, spolupráce</p>
+                        <div class="contact-info-links">
+                            <p><i class="fa-regular fa-envelope"></i><a href="mailto:spratek@planetum.cz">spratek@planetum.cz</a></p>
+                            <p><i class="fa-solid fa-phone"></i><a href="tel:731435236">731 435 236</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact filter-item ostrava">
+                    <img src="/imgs/organizers/ota.jpeg">
+                    <div class="contact-info">
+                        <strong>Ota Michálek</strong>
+                        <p>organizátor, spolupráce</p>
+                        <div class="contact-info-links">
+                            <p><i class="fa-regular fa-envelope"></i><a href="mailto:ota.michalek@gmail.com">ota.michalek@gmail.com</a></p>
+                            <p><i class="fa-solid fa-phone"></i><a href="tel:775708405">775 708 405</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{end}}

@@ -1,28 +1,166 @@
-<!DOCTYPE html>
-<html lang="{{.Site.LanguageCode}}">
-    <head>
-        {{partial "head.html" .}}
-        {{partial "style-base.html" .}}
-        {{partial "style-home.html" .}}
-        <title>{{.Title}}</title>
-    </head>
-    <body>
-        {{partial "header.html" .}}
-        <main>
-            {{.Content}}
-            <div class="news">
-                <h2><a style="text-decoration: none;" href="/novinky">Novinky</a></h2>
-                {{range where .Site.Pages ".Params.news" "==" true | first 2}}
-                    <div class="news-container">
-                    <p class="news-title"><strong>{{.Title}}</strong></p>
-                    <p class="news-date"><em>{{.Date | time.Format "02/01/2006"}}</em></p>
-                    <div class="news-content">
-                        {{.Content}}
-                    </div>
-                    </div>
-                {{end}}
+{{define "styles"}}<link rel="stylesheet" href="/css/home.css">{{end}}
+
+{{define "main"}}
+    <section id="hero-section">
+        <div class="section-content">
+            <div class="mega-text">AstroPi Hackathon</div>
+            <p>
+                Baví tě vesmír, věda a nebojíš se zkusit i programování?<br>
+                Tak začni svoji cestu ke hvězdám právě s námi!
+            </p>
+            <a class="primary-button" href="/aktualni-rocnik">SAVE THE DATE!</a>
+        </div>
+    </section>
+    <section id="about-section">
+        <div class="section-content">
+            <h5>O soutěži</h5>
+            <h1>Co je AstroPi Hackathon?</h1>
+            <div class="section-row">
+                <p>
+                    <strong>AstroPi Hackathon</strong> je podpůrnou akcí mezinárodní týmové soutěže AstroPi Challenge. Účelem Hackathonu je pomoci studentům připravit se na soutěž tak, aby ji mohli úspěšně dokončit.
+                </p>
+                <p>
+                    <strong>AstroPi Challenge</strong> je mezinárodní soutěž pro týmy o 2 až 6 členech, kterou pořádá Evropská kosmická agentura ESA ve spolupráci s Raspberry Pi Foundation. Soutěž se skládá ze dvou misí: Mission Zero a Mission Space Lab.
+                </p>
+                <p>
+                    <strong>Mission Zero</strong> je rychlejší a jednoduší. Úkolem je naprogramovat displej počítače na palubě ISS a poslat pozdrav nebo obrázek. <strong>Mission Space Lab</strong> je náročnější. Úkolem je pomocí dat z ISS splnit výzkumný úkol.
+                </p>
             </div>
-        </main>
-        {{partial "footer.html" .}}
-    </body>
-</html>
+            <a class="secondary-button" href="/astropi">Více o AstroPi</a>
+        </div>
+    </section>
+    <section id="us-section">
+        <div class="section-content">
+            <div class="section-content-left">
+                <h5>O nás</h5>
+                <h1>Kdo jsme?</h1>
+                <p>Jsme banda nadšenců do vesmíru, fyziky a programování. Nejen AstroPi Hackathonem se snažíme zvyšovat povědomí o různých soutěžích, studentských příležitostech, vědě a taky o českém vesmírném rybníčku. Pokoušíme se tak jít příkladem další generaci. Chceme v mladých nadšencích podporovat zájem o vědecké a technické obory a připravovat je na budoucí karéru.</p>
+                <div class="section-row">
+                    <a href="https://www.cmgp.cz/"><img src="/imgs/organizers/cmgp.png"></a>
+                    <a href="https://www.planetum.cz/"><img src="/imgs/organizers/planetum.png"></a>
+                    <a href="https://technecium.org/"><img src="/imgs/organizers/technecium.png"></a>
+                </div>
+                <a class="secondary-button" href="/kontakt#heads">Náš tým</a>
+            </div>
+            <img src="/imgs/home/us.webp">
+        </div>
+    </section>
+    <section id="accomplishments-section">
+        <div class="section-content">
+            <h5>Dokázali jsme</h5>
+            <h1>Minulý ročník v číslech</h1>
+            <div class="section-row">
+                <div class="accomplishment-item">
+                    <div class="accomplishment-number">120+</div>
+                    <div class="accomplishment-description">účastníků</div>
+                </div>
+                <div class="accomplishment-item">
+                    <div class="accomplishment-number">35+</div>
+                    <div class="accomplishment-description">týmů</div>
+                </div>
+                <!-- <div class="accomplishment-item">
+                    <div class="accomplishment-number">40</div>
+                    <div class="accomplishment-description">projektů</div>
+                </div> -->
+                <div class="accomplishment-item">
+                    <div class="accomplishment-number">4</div>
+                    <div class="accomplishment-description">města</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="partners-section">
+        <div class="section-content">
+            <h5>Naši partneři</h5>
+            <h1>Podpořili nás</h1>
+            <div class="section-row scrolling-row">
+                <a class="sponsor-rolling" href="https://www.honeywell.com/cz/en"><img src="/imgs/partners/honeywell.png"></a>
+                <a class="sponsor-rolling" href="https://vesmir.cz/cz/"><img src="/imgs/partners/vesmir.png"></a>
+                <a class="sponsor-rolling" href="https://astropi-hackathon.org/images/partners/ctm.png"><img src="/imgs/partners/ctm.png"></a>
+                <a class="sponsor-rolling" href="https://www.sab.srl/"><img src="/imgs/partners/sab.png"></a>
+                <a class="sponsor-rolling" href="https://www.hvezdarna.cz/"><img src="/imgs/partners/hvezdarna.png"></a>
+                <a class="sponsor-rolling" href="https://vida.cz/"><img src="/imgs/partners/vida.png"></a>
+                <a class="sponsor-rolling" href="https://psi.cz/"><img src="/imgs/partners/psi.png"></a>
+                <a class="sponsor-rolling" href="https://www.eserocz.cz/"><img src="/imgs/partners/esero.png"></a>
+                <a class="sponsor-rolling" href="https://www.jmk.cz/"><img src="/imgs/partners/jmk.png"></a>
+                <a class="sponsor-rolling" href="https://www.brno-stred.cz/"><img src="/imgs/partners/mcbs.png"></a>
+                <a class="sponsor-rolling" href="https://www.ohb-czech.cz/"><img src="/imgs/partners/ohb.png"></a>
+                <a class="sponsor-rolling" href="https://www.kentico.com/"><img src="/imgs/partners/kentico.png"></a>
+                <a class="sponsor-rolling" href="https://www.jcmm.cz/"><img src="/imgs/partners/jcmm.png"></a>
+                <a class="sponsor-rolling" href="https://science-technology.club/"><img src="/imgs/partners/s-and-t-club.png"></a>
+                <a class="sponsor-rolling" href="https://kosmonautix.cz/"><img src="/imgs/partners/kosmonautix.png"></a>
+                <a class="sponsor-rolling" href="https://www.asu.cas.cz/"><img src="/imgs/partners/asu.png"></a>
+                <a class="sponsor-rolling" href="https://www.dolnivitkovice.cz/"><img src="/imgs/partners/dov.png"></a>
+                <a class="sponsor-rolling" href="https://planetko.cz/cs/"><img src="/imgs/partners/planetarium.png"></a>
+                <a class="sponsor-rolling" href="https://www.tietoevry.com/cz/"><img src="/imgs/partners/Tiet.png"></a>
+                <a class="sponsor-rolling" href="https://www.ostrava.cz/cs"><img src="/imgs/partners/ostrava.png"></a>
+                <a class="sponsor-rolling" href="https://www.spse.cz/"><img src="/imgs/partners/spsevos.png"></a>
+                <a class="sponsor-rolling" href="https://www.gymozart.cz/"><img src="/imgs/partners/gymozart.jpg"></a>
+                <a class="sponsor-rolling" href="https://www.czechspaceportal.cz/czech-space-team/"><img src="/imgs/partners/cst.png"></a>
+            </div>
+            <a class="primary-button" href="/zapojte-se/spoluprace">Podpořte nás</a>
+        </div>
+    </section>
+    <section id="call-to-action-section">
+        <div class="section-content">
+            <div class="section-content-left">
+                <div>
+                    <h5>Je to skoro tady</h5>
+                    <div class="mega-text">SAVE THE DATE!</div>
+                </div>
+            </div>
+            <div class="section-row">
+                <div class="location alert">
+                    <h2>Brno</h2>
+                    <p>13. &ndash; 14. 12. 2024</p>
+                </div>
+                <div class="location">
+                    <h2>Praha</h2>
+                    <p>Bude upřesněno!</p>
+                </div>
+                <div class="location">
+                    <h2>Ostrava</h2>
+                    <p>Bude upřesněno!</p>
+                </div>
+                <div class="location">
+                    <h2>Pardubice</h2>
+                    <p>Bude upřesněno!</p>
+                </div>
+                <div class="location">
+                    <h2>Plzeň</h2>
+                    <p>Bude upřesněno!</p>
+                </div>
+            </div>
+            <!-- <div class="section-content-left">
+                <div>
+                    <h5>Poslední krok</h5>
+                    <div class="mega-text">Registruj se!</div>
+                </div>
+                <p>Zaujalo tě to? Pokud ano, zbývá pouze zaregistrovat tvůj tým!</p>
+                <a class="secondary-button" href="/aktualni-rocnik">Více k aktuálnímu ročníku <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="section-row">
+                <div class="location">
+                    <a class="primary-button" href="#">Brno</a>
+                    <p>13. &ndash; 14. 12. 2024</p>
+                </div>
+                <div class="location">
+                    <a class="primary-button" href="#">Praha</a>
+                    <p>Datum</p>
+                </div>
+                <div class="location">
+                    <a class="primary-button" href="#">Ostrava</a>
+                    <p>Datum</p>
+                </div>
+                <div class="location">
+                    <a class="primary-button" href="#">Pardubice</a>
+                    <p>Datum</p>
+                </div>
+                <div class="location">
+                    <a class="primary-button" href="#">Plzeň</a>
+                    <p>Datum</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+{{end}}

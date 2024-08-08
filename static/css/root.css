@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+:root {
+    --font-family: 'Rubik', 'sans-serif';
+
+    --dark-blue1: #001a26;
+    --dark-blue2: #002b3f;
+    --dark-blue3: #005177;
+    --dark-blue4: #004666;
+    --white: #ffffff;
+    --black: #000000;
+    --light-grey: #f3f3f3;
+    --grey: #363636;
+    --light-blue1: #1eb1de;
+    --light-blue2: #2c8aa7;
+    --light-blue3: #e6f7fd;
+    --red: #E8112D;
+    --pink: #ff45bd;
+
+    --gradient-right: linear-gradient(to right, var(--black), var(--dark-blue1));
+    --gradient-top: linear-gradient(to top, var(--black), var(--dark-blue1));
+    --gradient-bottom: linear-gradient(to bottom, var(--black), var(--dark-blue1));
+    --transparent-gradient: linear-gradient(to right, #001a26fa, #001a2641);
+    --transparent-gradient-variant: linear-gradient(to right, #002b3ff4, #00517741);
+
+    --font-size: 13px;
+    --mega-size: 60px;
+    --tiny-size: 9px;
+    --h1-size: 30px;
+    --h2-size: 24px;
+    --h3-size: 18px;
+
+    --spacer: 4em 0 4em 0;
+    --shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+}

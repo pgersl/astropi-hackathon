@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/favicon/site.webmanifest">
+
+        <link rel="stylesheet" href="/css/root.css">
+        <link rel="stylesheet" href="/css/base.css">
+        {{block "styles" .}}{{end}}
+
+        <script src="https://kit.fontawesome.com/9ab7bfa7fc.js" crossorigin="anonymous"></script>
+        <script data-goatcounter="https://astropihackathon.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <script src="/js/dropdown.js" defer></script>
+        {{block "scripts" .}}{{end}}
+
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-content">
+                {{partial "site-logo.html" .}}
+                <div class="nav-links">
+                    <a class="primary-button" href="/aktualni-rocnik">Aktuální ročník</a>
+                    <div class="dropdown-link">
+                        <span>Minulé ročníky</span>
+                        <div class="link-dropdown">
+                            {{range .Site.Menus.past}}
+                                <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
+                            {{end}}
+                        </div>
+                    </div>
+                    <a class="nav-link" href="/astropi">AstroPi</a>
+                    <a class="nav-link" href="/kontakt">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            {{block "main" .}}{{end}}
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-column" id="main-footer-column">
+                    {{partial "site-logo.html" .}}
+                    <p>
+                        <strong>AstroPi Hackathon</strong> je soutěž organizovaná k mezinárodní soutěži AstroPi Challenge, kterou každý rok vyhlašuje <a href="https://www.esa.int/" target="_blank">Evropská kosmická agentura</a>.<br>
+                        Soutěž organizují v Brně skupina studentů <a href="https://www.cmgp.cz/" target="_blank">Cyrilometodějského gymnázia</a> a v Praze a Ostravě pracovníci <a href="https://www.planetum.cz/" target="_blank">Planeta</a>.
+                    </p>
+                    <div class="social-links">
+                        <a class="social-link" href="https://www.facebook.com/profile.php?id=61552808147730"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a class="social-link" href="https://www.instagram.com/astropi_hackathon_cz/"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <div class="footer-column-title">Registrace</div>
+                        <div class="footer-links">
+                            <a class="primary-button" href="#">Brno</a>
+                            <a class="primary-button" href="#">Praha</a>
+                            <a class="primary-button" href="#">Ostrava</a>
+                            <a class="primary-button" href="#">Pardubice</a>
+                            <a class="primary-button" href="#">Plzeň</a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-title">Navigace</div>
+                        <div class="footer-links">
+                            <a class="footer-link" href="/">Domů</a>
+                            <a class="footer-link" href="/aktualni-rocnik">Aktuální ročník</a>
+                            <div class="dropdown-link">
+                                <span>Minulé ročníky</span>
+                                <div class="link-dropdown">
+                                    {{range .Site.Menus.past}}
+                                        <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
+                                    {{end}}
+                                </div>
+                            </div>
+                            <a class="footer-link" href="/astropi">AstroPi</a>
+                            <a class="footer-link" href="/kontakt">Kontakt</a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-title">Zapojte se</div>
+                        <div class="footer-links">
+                            <a class="footer-link" href="/zapojte-se/organizator">Přidejte se k nám</a>
+                            <a class="footer-link" href="/zapojte-se/mentor">Staňte se mentorem</a>
+                            <a class="footer-link" href="/zapojte-se/spoluprace">Podpořte nás</a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column-title">Kontakt</div>
+                        <div class="footer-links">
+                            <a class="footer-link" href="mailto:hackathon@cmgp.cz">hackathon@cmgp.cz</a>
+                            <a class="footer-link" href="mailto:spratek@planetum.cz">spratek@planetum.cz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                <p>&copy; 2022 - 2024 AstroPi Hackathon</p>
+                <p>Designed by <a href="https://pgersl.xyz/" target="_blank">Petr Geršl</a></p>
+            </div>
+        </footer>
+    </body>
+</html>

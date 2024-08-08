@@ -1,19 +1,5 @@
-<nav class="nav">
-    <div class="logo">
-        <a href="/">
-            <img src="/images/base/logo.png">
-        </a>
+<header style="background: var(--transparent-gradient-variant), url({{.Params.headerPhoto}}) no-repeat center top/cover;">
+    <div class="header-content">
+        {{.Title}}
     </div>
-    <a href="#" class="toggle">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </a>
-    <div class="links">
-        <ul>
-            {{range .Site.Menus.main}}
-                <li><a href="{{.URL}}">{{.Name}}</a></li>
-            {{end}}
-        </ul>
-    </div>
-</nav>
+</header>

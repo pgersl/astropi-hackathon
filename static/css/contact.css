@@ -1,0 +1,16 @@
+.section-row {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+.secondary-button {
+    margin-top: 0em;
+}
+.contact-filter {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2em;
+}

@@ -1,0 +1,24 @@
+<h5>Váš kontakt</h5>
+<h1>Ozvěte se nám!</h1>
+<div class="contact">
+    <img src="/imgs/organizers/{{.Get "pic"}}">
+    <div class="contact-info">
+        <strong>{{.Get "name"}}</strong>
+        <p>{{.Get "position"}}</p>
+        <div class="contact-info-links">
+            {{with .Get "mail"}}
+                <p><i class="fa-regular fa-envelope"></i><a href="mailto:{{.}}">{{.}}</a></p>
+            {{end}}
+            {{with .Get "phone"}}
+                {{$phoneNumber := .}}
+                {{$phoneLink := replace $phoneNumber " " ""}}
+                <p><i class="fa-solid fa-phone"></i><a href="tel:{{$phoneLink}}">{{$phoneNumber}}</a></p>
+            {{end}}
+            {{with .Get "web"}}
+                {{$webNameWWW := replaceRE "^https?://([^/]+).*" "$1" .}}
+                {{$webName := replace $webNameWWW "www." ""}}
+                <p><i class="fa-solid fa-globe"></i><a href="{{.}}">{{$webName}}</a></p>
+            {{end}}
+        </div>
+    </div>
+</div>
