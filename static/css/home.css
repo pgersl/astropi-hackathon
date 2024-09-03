@@ -1,3 +1,10 @@
+section:first-of-type, section:nth-of-type(2n+1) {
+    background-color: var(--light-grey);
+}
+section:nth-of-type(2n){
+    background-color: var(--white);
+}
+
 #hero-section {
     background: var(--transparent-gradient), url('/imgs/home/hero.webp') no-repeat center center/cover;
     color: var(--white);
@@ -11,24 +18,47 @@
     width: fit-content;
 }
 
-#about-section p {
-    width: 30%;
+#about-section-1 p {
+    max-width: 40%;
+}
+#about-section-1 {
+    background: var(--transparent-gradient-black), url('/imgs/home/about.webp') no-repeat center center/cover;
+    color: var(--white);
 }
 
-#us-section .section-content {
-    flex-direction: row;
-    justify-content: space-between;
+#about-section-2 .section-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2em;
 }
-
-#us-section .section-row {
-    margin: 1.3em 0 2em 0;
-    justify-content: flex-start;
-    gap: 2em;
+#about-section-2 fieldset {
+    padding: .3em 1em 1em 1em;
+    border: 2px solid;
+    border-radius: 10px;
 }
-#us-section .section-row img {
-    height: 40px;
-    width: auto;
+fieldset#mission-zero {
+    border-color: var(--pink);
+}
+fieldset#mission-space-lab {
+    border-color: var(--green);
+}
+fieldset#astropi-challenge {
+    border-color: var(--light-blue2);
+}
+fieldset#mission-zero strong {
+    color: var(--pink);
+}
+fieldset#mission-space-lab strong {
+    color: var(--green);
+}
+fieldset#astropi-challenge strong {
+    color: var(--light-blue2);
+}
+#about-section-2 legend img {
+    width: 3em;
+}
+fieldset#mission-zero legend {
+    color: var(--pink);
 }
 
 #accomplishments-section .section-row {
@@ -46,49 +76,37 @@
     color: var(--light-blue2);
 }
 
+#partners-section {
+    padding: 3em 0;
+}
 #partners-section .scrolling-row {
-    margin: 1.2em 0 2.5em 0;
+    margin: 2em 0 1em 0;
+    gap: 2em;
+}
+#partners-section .section-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
 }
 .sponsor-rolling img {
-    height: 45px;
+    height: 25px;
     width: auto;
     margin-bottom: 1em;
 }
-
-#call-to-action-section {
-    background: var(--transparent-gradient), url('/imgs/home/cta.jpg') no-repeat center top/cover;
-    color: var(--white);
-    padding: 6em 0;
-}
-#call-to-action-section .section-content {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-#call-to-action-section .section-row {
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}
-#call-to-action-section .section-content-left {
+.partners-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+}
+.organiser-container .section-row {
+    margin: 1.3em 0 2em 0;
+    justify-content: flex-start;
     gap: 2em;
-    width: 50%;
 }
-.location {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-    font-weight: bold;
-    white-space: nowrap;
-}
-.location .main-button {
-    font-size: var(--h3-size);
-}
-.location.alert p {
-    color: var(--pink);
+.organiser-container img {
+    height: 40px;
+    width: auto;
 }
 
 /* MEDIA */
@@ -104,6 +122,14 @@
     #call-to-action-section .section-row {
         width: 100%;
         justify-content: space-evenly;
+    }
+}
+@media (max-width:600px) {
+    #about-section-2 .section-row {
+        grid-template-columns: 1fr;
+    }
+    #about-section-1 p {
+        max-width: 100%;
     }
 }
 @media (max-width:500px) {
@@ -122,5 +148,8 @@
     #accomplishments-section .section-row {
         gap: 2em;
         flex-wrap: wrap;
+    }
+    #partners-section .section-content {
+        grid-template-columns: 1fr;
     }
 }

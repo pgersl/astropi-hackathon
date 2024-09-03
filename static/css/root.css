@@ -16,12 +16,16 @@
     --light-blue3: #e6f7fd;
     --red: #E8112D;
     --pink: #ff45bd;
+    --yellow1: #f7c325;
+    --yellow2: #fbdf8c;
+    --green: #6ABFAE;
 
-    --gradient-right: linear-gradient(to right, var(--black), var(--dark-blue1));
+    --gradient-right: linear-gradient(to left, var(--dark-blue4), var(--dark-blue2));
     --gradient-top: linear-gradient(to top, var(--black), var(--dark-blue1));
     --gradient-bottom: linear-gradient(to bottom, var(--black), var(--dark-blue1));
     --transparent-gradient: linear-gradient(to right, #001a26fa, #001a2641);
     --transparent-gradient-variant: linear-gradient(to right, #002b3ff4, #00517741);
+    --transparent-gradient-black: linear-gradient(to right, var(--black), #00000000);
 
     --font-size: 13px;
     --mega-size: 60px;
@@ -29,7 +33,9 @@
     --h1-size: 30px;
     --h2-size: 24px;
     --h3-size: 18px;
+    --h4-size: 16px;
 
-    --spacer: 4em 0 4em 0;
-    --shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+    --spacer: 5em 0;
+    --shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    --transition: all .1s ease;
 }

@@ -11,59 +11,6 @@ main {
     flex: 1;
 }
 #call-to-action-section {
-    background: var(--transparent-gradient), url('/imgs/home/cta.jpg') no-repeat center top/cover;
-    color: var(--white);
     padding: 6em 0;
     flex: 1;
-}
-#call-to-action-section .section-content {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-#call-to-action-section .section-row {
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}
-#call-to-action-section .section-content-left {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    width: 50%;
-}
-.location {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-    font-weight: bold;
-    white-space: nowrap;
-}
-.location .main-button {
-    font-size: var(--h3-size);
-}
-.location.alert p {
-    color: var(--pink);
-}
-header {
-    font-weight: bold;
-    font-size: var(--mega-size);
-}
-footer {
-    flex: none;
-}
-
-@media (max-width:850px) {
-    #call-to-action-section .section-content-left {
-        width: 100%;
-    }
-    #call-to-action-section .section-content {
-        flex-direction: column;
-        gap: 4em;
-    }
-    #call-to-action-section .section-row {
-        width: 100%;
-        justify-content: space-evenly;
-    }
 }
