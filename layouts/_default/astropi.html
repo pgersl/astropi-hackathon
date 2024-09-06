@@ -1,0 +1,32 @@
+{{define "styles"}}<link rel="stylesheet" href="/css/astropi.css">{{end}}
+{{define "scripts"}}<script src="/js/sidebar.js" defer></script>{{end}}
+
+{{define "main"}}
+    <section id="main-content">
+        <div class="section-content">
+            <aside class="sidebar">
+                <div class="sidebar-link-group">
+                    <a href="/astropi" class="sidebar-title astropi-link">AstroPi Challenge</a>
+                    <span><i class="fa-solid fa-chevron-right"></i> <a href="/astropi/pocitace-astropi" class="sidebar-link astropi-link">Počítače AstroPi</a></span>
+                </div>
+                <div class="sidebar-link-group">
+                    <a href="/astropi/mission-zero" class="sidebar-title zero-link">Mission Zero</a>
+                    <span><i class="fa-solid fa-chevron-right"></i> <a href="https://projects.raspberrypi.org/cs-CZ/projects/astro-pi-mission-zero" class="sidebar-link zero-link" target="_blank">Oficiální průvodce</a> <i class="fa-solid fa-up-right-from-square zero-link"></i></span>
+                </div>
+                <div class="sidebar-link-group">
+                    <a href="/astropi/mission-space-lab" class="sidebar-title space-lab-link">Mission Space Lab</a>
+                    <span><i class="fa-solid fa-chevron-right"></i> <a href="/astropi/pruvodce-mission-space-lab" class="sidebar-link space-lab-link">Průvodce</a></span>
+                    <span><i class="fa-solid fa-chevron-right"></i> <a href="/astropi/pruvodce-merenim-rychlosti-iss" class="sidebar-link space-lab-link">Průvodce měřením rychlosti ISS</a></span>
+                    <span><i class="fa-solid fa-chevron-right"></i> <a href="/astropi/pruvodce-pro-mentory" class="sidebar-link space-lab-link">Průvodce pro mentory</a></span>
+                    <span><i class="fa-solid fa-chevron-right"></i> <a href="https://astro-pi.org/mission-space-lab/resources" class="sidebar-link space-lab-link" target="_blank">Oficiální materiály</a> <i class="fa-solid fa-up-right-from-square space-lab-link"></i></span>
+                </div>
+                <button id="sidebar-untoggle-button"><i class="fa-solid fa-xmark"></i></button>
+            </aside>
+            <div class="main-content {{.Params.mission}}">
+                <div class="mega-text">{{.Title}}</div>
+                <button id="sidebar-toggle-button"><i class="fa-solid fa-bars"></i></button>
+                {{.Content}}
+            </div>
+        </div>
+    </section>
+{{end}}

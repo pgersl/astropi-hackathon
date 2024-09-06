@@ -20,7 +20,7 @@
     --yellow2: #fbdf8c;
     --green: #6ABFAE;
 
-    --gradient-right: linear-gradient(to left, var(--dark-blue4), var(--dark-blue2));
+    --gradient-right: linear-gradient(to left, var(--dark-blue4), var(--dark-blue2), var(--dark-blue1));
     --gradient-top: linear-gradient(to top, var(--black), var(--dark-blue1));
     --gradient-bottom: linear-gradient(to bottom, var(--black), var(--dark-blue1));
     --transparent-gradient: linear-gradient(to right, #001a26fa, #001a2641);

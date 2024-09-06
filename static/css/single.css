@@ -29,13 +29,10 @@ ol li {
 .contact img {
     width: 200px;
 }
+
 blockquote {
-    background-color: var(--light-blue3);
-    padding: 1em;
+    border-color: var(--light-blue2);
     color: var(--light-blue2);
-    font-weight: bold;
-    border-left: solid 4px var(--light-blue2);
-    border-radius: 4px;
 }
 
 @media (max-width: 440px) {

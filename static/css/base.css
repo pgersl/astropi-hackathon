@@ -90,13 +90,17 @@ h5 {
     color: var(--black);
     background-color: var(--yellow2);
 }
+.primary-button:active {
+    background-color: var(--light-grey);
+    color: var(--black);
+}
 .secondary-button {
     margin-top: 2em;
     border: 2px solid var(--yellow1);
     font-size: var(--font-size);
     font-family: var(--font-family);
-    color: var(--black);
-    background-color: var(--white);
+    color: inherit;
+    background: transparent;
 }
 .secondary-button:hover {
     background-color: var(--yellow2);
@@ -171,6 +175,19 @@ footer .link-dropdown {
 .fa-envelope, .fa-phone, .fa-globe {
     color: var(--light-blue2);
     margin-right: .6em;
+}
+
+blockquote {
+    background-color: var(--light-grey);
+    padding: 1em;
+    font-weight: bold;
+    border-left: solid 4px;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+blockquote p {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 /* LAYOUT */
@@ -307,7 +324,7 @@ nav {
     width: 100%;
 }
 #map path {
-    fill: var(--dark-blue3);
+    fill: transparent;
     stroke: var(--white);
     stroke-width: 5px;
     transition: var(--transition);
@@ -318,6 +335,9 @@ nav {
 }
 #map path[id="jmk"]:hover, #map path[id="kp"]:hover, #map path[id="msk"]:hover, #map path[id="pk"]:hover {
     fill: var(--yellow2);
+}
+#map path[id="jmk"]:active, #map path[id="kp"]:active, #map path[id="msk"]:active, #map path[id="pk"]:active {
+    fill: var(--light-grey);
 }
 #cta-text .location-grid {
     display: grid;

@@ -25,6 +25,11 @@ section:nth-of-type(2n){
     background: var(--transparent-gradient-black), url('/imgs/home/about.webp') no-repeat center center/cover;
     color: var(--white);
 }
+#about-section-1 .section-row {
+    justify-content: flex-start;
+    gap: 2em;
+    margin-top: 2em;
+}
 
 #about-section-2 .section-row {
     display: grid;
