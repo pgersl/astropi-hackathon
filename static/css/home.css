@@ -91,7 +91,7 @@ fieldset#mission-zero legend {
 #partners-section .section-content {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 1em;
+    gap: 3em;
 }
 .sponsor-rolling img {
     height: 25px;
