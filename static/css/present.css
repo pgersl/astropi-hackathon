@@ -14,3 +14,41 @@ main {
     padding: 6em 0;
     flex: 1;
 }
+
+#info .section-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+}
+
+#info .info-container {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    text-align: center;
+}
+
+#info i {
+    font-size: var(--mega-size);
+    color: var(--dark-blue4);
+}
+
+#registration {
+    background: var(--gradient-right);
+}
+
+#registration .section-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+#registration .primary-button {
+    font-size: var(--h1-size);
+}
+
+#content .section-row {
+    justify-content: flex-start;
+    gap: 2em;
+}

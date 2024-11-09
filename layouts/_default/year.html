@@ -1,0 +1,69 @@
+{{define "styles"}}
+    <link rel="stylesheet" type="text/css" href="/css/present.css">
+    <link rel="stylesheet" type="text/css" href="/css/past.css">
+{{end}}
+
+{{define "main"}}
+    {{partial "header.html" .}}
+    <section id="info">
+        <div class="section-content">
+            <div class="info-container">
+                <i class="fa-solid fa-user"></i>
+                <p>{{.Params.competitors}}</p>
+            </div>
+            <div class="info-container">
+                <i class="fa-regular fa-calendar-days"></i>
+                <p>{{.Params.dateTime}}</p>
+            </div>
+            <div class="info-container">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>{{.Params.location}}</p>
+            </div>
+            <div class="info-container">
+                <i class="fa-solid fa-house"></i>
+                <p>{{.Params.housing}}</p>
+            </div>
+        </div>
+    </section>
+    <section id="registration">
+        <div class="section-content">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTkCxCduza-lgWC-cWt3o1V5J2522hA-PjFUqef_DBwVy56A/viewform" class="primary-button">Registrace</a>
+        </div>
+    </section>
+    <section id="content">
+        <div class="section-content">
+            <div class="section-content-left">{{.Content}}</div>
+            <img src="{{.Params.contentPhoto}}">
+        </div>
+    </section>
+    <section id="logos">
+        <div class="section-content">
+            <div class="logo-container" id="organizers">
+                <h5>Organizátoři</h5>
+                <div class="logos-container">
+                    {{range .Params.organizers}}
+                        <img src="/imgs/organizers/{{.}}">
+                    {{end}}
+                </div>
+            </div>
+            {{if .Params.mainPartners}}
+                <div class="logo-container" id="main-partners">
+                    <h5>Hlavní partneři</h5>
+                    <div class="logos-container">
+                        {{range .Params.mainPartners}}
+                            <img src="/imgs/partners/{{.}}">
+                        {{end}}
+                    </div>
+                </div>
+            {{end}}
+            <div class="logo-container" id="partners">
+                <h5>Partneři</h5>
+                <div class="logos-container">
+                    {{range .Params.partners}}
+                        <img src="/imgs/partners/{{.}}">
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </section>
+{{end}}
