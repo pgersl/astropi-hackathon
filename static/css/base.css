@@ -458,6 +458,7 @@ footer .dropdown-item {
     }
     .contact img {
         width: 100%;
+    }
 }
 @media (max-width: 850px) {
     .footer-content {
