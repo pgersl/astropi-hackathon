@@ -517,3 +517,18 @@ footer .dropdown-item {
         font-size: var(--tiny-size);
     }
 }
+
+/* TEMPORARY */
+
+.map-inactive path {
+    fill: grey !important;
+}
+.map-inactive path:hover {
+    cursor: crosshair !important;
+}
+.primary-button.inactive {
+    background-color: grey !important;
+}
+.primary-button.inactive:hover {
+    cursor: crosshair !important;
+}

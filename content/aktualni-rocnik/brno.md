@@ -3,13 +3,14 @@ title: "AstroPi Hackathon Brno 2024"
 layout: year
 headerPhoto: /imgs/past/brno23/header.jpg
 contentPhoto: /imgs/gallery/brno23/9.webp
+registration: https://docs.google.com/forms/d/e/1FAIpQLSfTkCxCduza-lgWC-cWt3o1V5J2522hA-PjFUqef_DBwVy56A/viewform
 competitors: 2 – 6 členné týmy od 12 do 19 let
 dateTime: 13. – 14. 12. 2024, od 15:00 do 15:00
 location: Cyrilometodějské gymnázium v Brně, Lerchova 63
 housing: Ubytování a stravování zajištěno, s sebou karimatky a spacáky, možnost malého nákupu na místě
 organizers: [cmgp-full.png, esero.png]
-mainPartners: [vesmir.png]
-partners: [honeywell.png, spacemanic.png, sab.png]
+mainPartners: [vesmir.png, planetum-full.png]
+partners: [honeywell.png, spacemanic.png, sab.png, hvezdarna.png]
 ---
 
 ##### V Brně se něco chystá
