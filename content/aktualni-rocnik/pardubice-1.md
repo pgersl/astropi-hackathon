@@ -10,5 +10,5 @@ location: SPŠE a VOŠ Pardubice, Karla IV. 13
 housing: Ubytování a stravování zajištěno, s sebou karimatky a spacáky, možnost malého nákupu na místě
 organizers: [spsevos.png, esero-full.png]
 mainPartners: []
-partners: [planetum-full.png]
+partners: [planetum-full.png, mattoni.png]
 ---
