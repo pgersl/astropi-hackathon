@@ -8,7 +8,7 @@ dateTime: 30. 11. – 1. 12. 2024, od 11:00 do 14:00
 location: Gymnázium Olgy Havlové Ostrava, M. Majerové 1691
 housing: Ubytování a stravování zajištěno, s sebou karimatky a spacáky
 registration: https://docs.google.com/forms/d/e/1FAIpQLSfW1d6UVPOWy9JwBgU-BxYCM3KRuUlgM_iEfWodFn0daaMs1A/viewform
-organizers: [technecium.png, esero.png]
+organizers: [crs-full.png, esero-full.png]
 mainPartners: []
 partners: [cst.png, svet-techniky.png, ostrava.png, Tiet.png, proxima.png]
 ---

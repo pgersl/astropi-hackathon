@@ -108,6 +108,7 @@ fieldset#mission-zero legend {
     margin: 1.3em 0 2em 0;
     justify-content: flex-start;
     gap: 2em;
+    flex-wrap: nowrap;
 }
 .organiser-container img {
     height: 40px;
@@ -129,6 +130,11 @@ fieldset#mission-zero legend {
         justify-content: space-evenly;
     }
 }
+@media (max-width:700px) {
+    #partners-section .section-content {
+        grid-template-columns: 1fr;
+    }
+}
 @media (max-width:600px) {
     #about-section-2 .section-row {
         grid-template-columns: 1fr;
@@ -144,6 +150,9 @@ fieldset#mission-zero legend {
     .scrolling-row img {
         height: 20px;
     }
+    .organiser-container img {
+        height: 30px;
+    }
     #about-section .section-row {
         flex-direction: column;
     }
@@ -153,8 +162,5 @@ fieldset#mission-zero legend {
     #accomplishments-section .section-row {
         gap: 2em;
         flex-wrap: wrap;
-    }
-    #partners-section .section-content {
-        grid-template-columns: 1fr;
     }
 }
