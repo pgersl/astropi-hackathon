@@ -98,21 +98,14 @@ fieldset#mission-zero legend {
     width: auto;
     margin-bottom: 1em;
 }
-.partners-container {
+.partners-container, .organiser-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
 }
-.organiser-container .section-row {
-    margin: 1.3em 0 2em 0;
-    justify-content: flex-start;
-    gap: 2em;
-    flex-wrap: nowrap;
-}
-.organiser-container img {
-    height: 40px;
-    width: auto;
+#partners-section .secondary-button {
+    margin-top: 0;
 }
 
 /* MEDIA */
@@ -149,9 +142,6 @@ fieldset#mission-zero legend {
     }
     .scrolling-row img {
         height: 20px;
-    }
-    .organiser-container img {
-        height: 30px;
     }
     #about-section .section-row {
         flex-direction: column;
