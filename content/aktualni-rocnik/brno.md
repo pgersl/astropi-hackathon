@@ -10,7 +10,7 @@ location: Cyrilometodějské gymnázium v Brně, Lerchova 63
 housing: Ubytování a stravování zajištěno, s sebou karimatky a spacáky, možnost malého nákupu na místě
 organizers: [cmgp-full.png, esero-full.png]
 mainPartners: [vesmir.png, hvezdarna.png, redhat.svg, mattoni.png, advantech.png, mcbs.png]
-partners: [honeywell.png, spacemanic.png, sab.png, kentico.png, ohb.png, jic.png, planetum-full.png]
+partners: [honeywell.png, spacemanic.png, sab.png, kentico.png, ohb.png, jic.png, hikade.png, planetum-full.png]
 ---
 
 ##### V Brně se něco chystá
