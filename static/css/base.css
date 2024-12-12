@@ -517,6 +517,15 @@ footer .dropdown-item {
     .nav-links {
         font-size: var(--tiny-size);
     }
+    #call-to-action-section .mega-text {
+        font-size: var(--h1-size);
+    }
+    .location-title {
+        font-size: var(--h3-size) !important;
+    }
+    .location-date {
+        font-size: var(--h4-size) !important;
+    }
 }
 
 /* TEMPORARY */
