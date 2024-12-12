@@ -320,25 +320,6 @@ nav {
     gap: 2em;
     align-items: center;
 }
-#map svg {
-    width: 100%;
-}
-#map path {
-    fill: transparent;
-    stroke: var(--white);
-    stroke-width: 5px;
-    transition: var(--transition);
-}
-#map path[id="jmk"], #map path[id="kp"], #map path[id="msk"], #map path[id="pk"] {
-    fill: var(--yellow1);
-    cursor: pointer;
-}
-#map path[id="jmk"]:hover, #map path[id="kp"]:hover, #map path[id="msk"]:hover, #map path[id="pk"]:hover {
-    fill: var(--yellow2);
-}
-#map path[id="jmk"]:active, #map path[id="kp"]:active, #map path[id="msk"]:active, #map path[id="pk"]:active {
-    fill: var(--light-grey);
-}
 #cta-text .location-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -352,6 +333,85 @@ nav {
 }
 #cta-text .location-date {
     font-size: var(--h4-size);
+}
+
+#map {
+    position: relative;
+}
+#map svg {
+    width: 100%;
+}
+#map path {
+    fill: transparent;
+    stroke: var(--white);
+    stroke-width: 5px;
+    transition: var(--transition);
+}
+#map .map-active path {
+    fill: var(--yellow1);
+    cursor: crosshair;
+}
+#map .map-active:hover path {
+    fill: var(--yellow2);
+}
+#map .map-inactive path {
+    fill: grey !important;
+}
+#map .map-inactive:hover path {
+    cursor: crosshair !important;
+    fill: var(--light-grey) !important;
+}
+
+.location-tooltip {
+    padding: 1em;
+    background-color: #000000b9;
+    width: fit-content;
+    position: absolute;
+    display: none;
+}
+.location-tooltip-link {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
+.location-tooltip-point {
+    width: 13px;
+    height: 13px;
+    border: 2px solid var(--white);
+}
+.location-tooltip-point.point-active {
+    background-color: var(--yellow1);
+}
+.location-tooltip-point.point-inactive {
+    background-color: grey;
+}
+.location-tooltip a:hover {
+    color: var(--yellow1);
+}
+.location-tooltip a:active {
+    color: var(--yellow2);
+}
+
+#jmk {
+    right: 15%;
+    bottom: 5%;
+}
+#kp {
+    bottom: 47%;
+    left: 33%;
+}
+#pk {
+    bottom: 37%;
+    right: 20%;
+}
+#msk {
+    bottom: 40%;
+    right: 0;
+}
+#plk {
+    bottom: 20%;
+    left: 15%;
 }
 
 /* FOOTER */
@@ -528,14 +588,9 @@ footer .dropdown-item {
     }
 }
 
-/* TEMPORARY */
+/* INACTIVE */
 
-.map-inactive path {
-    fill: grey !important;
-}
-.map-inactive path:hover {
-    cursor: crosshair !important;
-}
+
 .primary-button.inactive {
     background-color: grey !important;
 }
