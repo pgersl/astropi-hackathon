@@ -33,7 +33,7 @@ info: true
     }
     .timetable-element {
         display: grid;
-        grid-template-columns: 90px 1fr;
+        grid-template-columns: 100px 1fr;
         grid-gap: 2em;
     }
     .timetable > strong {
@@ -53,7 +53,7 @@ info: true
         list-style-position: inside;
     }
     #content p:has(img) {
-        margin: 0 auto
+        margin: 0 auto;
     }
 </style>
 
