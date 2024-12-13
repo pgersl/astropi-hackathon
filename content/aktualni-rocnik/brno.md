@@ -94,7 +94,7 @@ info: true
 </div>
 
 <div class="timetable">
-    <strong>Pátek 13. 12.</strong>
+    <strong>Sobota 14. 12.</strong>
     <div class="timetable-element">
         <div class="timetable-time">7:30 – 9:15</div>
         <div class="timetable-info"><strong>3. blok práce v týmu</strong></div>
