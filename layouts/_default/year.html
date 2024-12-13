@@ -31,11 +31,24 @@
         </div>
     </section>
     <section id="content">
-        <div class="section-content">
-            <div class="section-content-left">{{.Content}}</div>
-            <img src="{{.Params.contentPhoto}}">
-        </div>
+        {{if .Params.info}}
+            <div class="section-content" style="flex-direction: column; justify-content: flex-start; gap:0">
+                {{.Content}}
+            </div>
+        {{else}}
+            <div class="section-content">
+                <div class="section-content-left">{{.Content}}</div>
+                <img src="{{.Params.contentPhoto}}">
+            </div>
+        {{end}}
     </section>
+    {{if .Params.info}}
+        <section id="registration">
+            <div class="section-content">
+                <a {{with .Params.presentation}}href="{{.}}"{{end}} class="primary-button">Odevzdání prezentací</a>
+            </div>
+        </section>
+    {{end}}
     <section id="logos">
         <div class="section-content">
             <div class="logo-container" id="organizers">

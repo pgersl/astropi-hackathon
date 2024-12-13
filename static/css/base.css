@@ -506,7 +506,8 @@ footer .dropdown-item {
 @media (max-width: 950px) {
     .footer-column:nth-of-type(1) .footer-links {
         flex-direction: row;
-        gap: 2em;
+        flex-wrap: wrap;
+        gap: 1em;
     }
     .footer-columns {
         flex-wrap: wrap;
