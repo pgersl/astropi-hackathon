@@ -55,6 +55,9 @@ info: true
     #content p:has(img) {
         margin: 0 auto;
     }
+    #registration .primary-button {
+        text-align: center;
+    }
 </style>
 
 <div class="timetable">
@@ -82,6 +85,14 @@ info: true
     <div class="timetable-element">
         <div class="timetable-time">19:00 – 22:00</div>
         <div class="timetable-info"><strong>2. blok práce v týmech</strong></div>
+    </div>
+    <div class="timetable-element time-alert">
+        <div class="timetable-time">20:00 – 20:30</div>
+        <div class="timetable-info">Hromadné odevzdávání kódu pro Mission Zero – mladší kategorie</div>
+    </div>
+    <div class="timetable-element time-alert">
+        <div class="timetable-time">20:30 – 21:00</div>
+        <div class="timetable-info">Hromadné odevzdávání kódu pro Mission Zero – starší kategorie</div>
     </div>
     <div class="timetable-element">
         <div class="timetable-time">22:00 – 07:00</div>
