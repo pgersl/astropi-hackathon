@@ -85,11 +85,7 @@ info: true
     </div>
     <div class="timetable-element">
         <div class="timetable-time">22:00 – 07:00</div>
-        <div class="timetable-info">Úvod do Mission Zero</div>
-    </div>
-    <div class="timetable-element">
-        <div class="timetable-time">22:00 – 7:00</div>
-        <div class="timetable-info">Úvod do Mission Zero</div>
+        <div class="timetable-info">Noční režim</div>
     </div>
 </div>
 
