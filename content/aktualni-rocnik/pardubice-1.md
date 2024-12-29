@@ -12,3 +12,8 @@ organizers: [spsevos.png, esero-full.png]
 mainPartners: []
 partners: [planetum-full.png, mattoni.png]
 ---
+
+##### Byla to síla!
+# AstroPi Hackathon Pardubice 2024 1 je za námi
+
+Těšte se na fotky!

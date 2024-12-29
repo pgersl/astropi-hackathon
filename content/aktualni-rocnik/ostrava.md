@@ -13,11 +13,7 @@ mainPartners: []
 partners: [cst.png, mattoni.png, goh.jpeg]
 ---
 
-##### V Ostravě už jsme ready
-# Těšíme se na vás!
+##### Byla to síla!
+# AstroPi Hackathon Ostrava 2024 je za námi
 
-<div class="section-row">
-    <a href="/zapojte-se/spoluprace" class="primary-button">Podpořte nás</a>
-    <a href="/zapojte-se/organizator" class="primary-button">Přidejte se k nám</a>
-    <a href="/zapojte-se/mentor" class="primary-button">Staňte se mentorem</a>
-</div>
+Těšte se na fotky!
