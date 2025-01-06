@@ -53,3 +53,8 @@ enableEmoji = "true"
         name = "Ostrava 2023"
         url = "/minule-rocniky/ostrava23"
         weight = "96"
+    [[menu.past]]
+        identifier = "brno24"
+        name = "Brno 2024"
+        url = "/minule-rocniky/brno24"
+        weight = "95"
