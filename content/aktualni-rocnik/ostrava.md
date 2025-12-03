@@ -11,6 +11,7 @@ inactive: true
 organizers: [crs-full.png, esero-full.png, ctu.png]
 mainPartners: []
 partners: [cst.png, mattoni.png, goh.jpeg]
+inactive: true
 ---
 
 ##### Byla to síla!
