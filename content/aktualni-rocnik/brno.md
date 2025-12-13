@@ -4,7 +4,7 @@ layout: year
 headerPhoto: /imgs/past/brno24/header.jpg
 contentPhoto: /imgs/gallery/brno24/9.webp
 inactive: false
-registration: "https://forms.gle/8tnEXgaKt5J1QRZB7"
+registration: "https://forms.gle/sDW9ziPBKHoguXLTA"
 competitors: 2 – 6 členné týmy od 12 do 19 let
 dateTime: 23. – 24. 1. 2026, od 15:00 do 15:00
 location: Cyrilometodějské gymnázium v Brně, Lerchova 63
