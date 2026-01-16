@@ -26,9 +26,9 @@ Důležité je asi také zmínit, že organizace hackathonu není lukrativní z�
 Pro zapojení nás kontaktujte, rádi se s vámi setkáme osobně nebo online. Přidáme vás do procesu a pokusíme se vás hned seznámit s procesem organizace hackathonu a pak se k nám budete moci konečně přidat.
 
 {{< your-contact 
-name="Matěj Šicner" 
+name="Roman Otych" 
 position="organizátor"
-mail="msicner@cmgp.cz"
-phone="731 724 502"
-pic="matej.jpg"
+mail="rotych@cmgp.cz"
+phone="792 306 917"
+pic=""
 >}}

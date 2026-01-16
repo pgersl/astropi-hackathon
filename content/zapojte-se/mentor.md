@@ -19,9 +19,9 @@ Mentorem může být kdokoliv se zápalem pro vesmír, programování nebo vědu
 AstroPi Hackathon trvá 24 hodin během dvou dnů. Stačí se s námi dopředu domluvit, neřešíme žádné pohovory. Během akce mentoři obcházejí jednotlivé týmy a pomáhají, kde je třeba. Pro mentory zajišťujeme také stravování i drobné občerstvení navíc.
 
 {{< your-contact 
-name="Matěj Šicner" 
+name="Roman Otych" 
 position="organizátor"
-mail="msicner@cmgp.cz"
-phone="731 724 502"
-pic="matej.jpg"
+mail="rotych@cmgp.cz"
+phone="792 306 917"
+pic=""
 >}}

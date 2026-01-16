@@ -50,10 +50,9 @@ Jakožto pouzí entuziasté toho nemůžeme nabídnout mnoho, ale něco přece j
 Naším cílem je vylepšovat kvalitu zážitku pro účastníky a vše jim maximálně zjednodušit, zpohodlnit a ozvláštnit. Z finančních darů nakupujeme primárně stravování a občerstvení a příspíváme na pronájem prostor. Dále pořizujeme ceny pro vítěze, zajišťujeme kvalitnější tisk diplomů nebo tvoříme propagační materiály a propagujeme hackathon.
 
 {{< your-contact 
-name="Petr Geršl" 
-position="organizátor, web, spolupráce"
-mail="pgersl@cmgp.cz"
-phone="731 347 915"
-web="https://pgersl.xyz/"
-pic="petr.jpg"
+name="Jakub Procházka" 
+position="organizátor"
+mail="jprochazka1@cmgp.cz"
+phone="728 052 050"
+pic=""
 >}}
