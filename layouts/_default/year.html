@@ -27,7 +27,11 @@
     </section>
     <section id="registration">
         <div class="section-content">
-            <a {{with .Params.registration}}href="{{.}}"{{end}} class="primary-button {{if .Params.inactive}}inactive{{end}}">Registrace</a>
+            {{if .Params.inactive}}
+            <span class="primary-button inactive">Kapacita obsazena</span>
+            {{else}}
+                <a href="{{.Params.registration}}" class="primary-button">Registrace</a>
+            {{end}}
         </div>
     </section>
     <section id="content">
