@@ -62,7 +62,13 @@
                         <div class="footer-links">
                             <a class="primary-button active" href="https://forms.gle/8tnEXgaKt5J1QRZB7">Klatovy</a>
                             <a class="primary-button" href="https://forms.gle/gBmvtEEWqGta7BJw5">Frýdek-Místek</a>
-                            <a class="primary-button active" href="https://forms.gle/G98amGw9nSZz17dC9">Brno</a>
+                            {{ with .Site.GetPage "aktualni-rocnik/brno" }}
+                                {{ if .Params.inactive }}
+                                    <span class="primary-button inactive">Brno – kapacita obsazena</span>
+                                {{ else }}
+                                    <a class="primary-button active" href="{{ .Params.registration }}">Brno</a>
+                                {{ end }}
+                            {{ end }}
                         </div>
                     </div>
                     <div class="footer-column">
