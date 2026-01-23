@@ -21,7 +21,7 @@ info: true
 - 14:15 - 14:50 - Příjezd a registrace týmů na místě
 - 15:00 - 16:00 - Oficiální zahájení akce a uvedení účastníků do tématu soutěže
 - 16:00 - 16:20 - Uvedení mentorů do tématu soutěže a mentorská porada o struktuře mentorování týmů v průběhu hackathonu
-- 17:00 - úvod do Mission Zero
+- 17:30 - úvod do Mission Zero a Mission Space Lab (seminář programování a kritéria hodnocení)
 - 16:00 - 18:00 - První blok kutění týmů ve svých učebnách s pomocí mentorů
 - 18:00 - Večeře
 - 19:00 - 22:00 - Druhý blok kutění týmů ve svých učebnách s pomocí mentorů
