@@ -19,13 +19,12 @@ info: true
 # Harmonogram:
 ## Pátek 23. 1.:
 - 14:15 - 14:50 - Příjezd a registrace týmů na místě
-- 15:00 - 16:00 - Oficiální zahájení akce a uvedení účastníků do tématu soutěže
-- 16:00 - 16:20 - Uvedení mentorů do tématu soutěže a mentorská porada o struktuře mentorování týmů v průběhu hackathonu
+- 15:00 - 16:00 - Oficiální zahájení akce
 - 17:30 - úvod do Mission Zero a Mission Space Lab (seminář programování a kritéria hodnocení)
 - 16:00 - 18:00 - První blok kutění týmů ve svých učebnách s pomocí mentorů
 - 18:00 - Večeře
 - 19:00 - 22:00 - Druhý blok kutění týmů ve svých učebnách s pomocí mentorů
-- 22:00 - 7:30 - kutění týmů v nočním režimu, ideálně s pomocí mentorů
+- 22:00 - 7:30 - kutění týmů v nočním režimu s pomocí mentorů
 
 <br><br>
 
@@ -40,8 +39,7 @@ info: true
 - 11:00 - Oběd
 - 11:25 - 11:40 - Přesun na hvězdárnu na prezentace starších týmů
 - 11:40 - 13:40 - Hodnocené prezentace starších týmů
-- 13:40 - 14:00 - Porada poroty o pořadí týmů
-- 14:00 - 14:30 - Vyhlášení vítězů a ukončení akce
+- 14:00 - 14:30 - Vyhlášení vítězů
 - 14:30 - 15:30 - Návrat do školy pro věci, kontrola úklidu tříd, konec
 
 <br><br>
