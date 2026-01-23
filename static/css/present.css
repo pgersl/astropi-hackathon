@@ -52,3 +52,9 @@ main {
     justify-content: flex-start;
     gap: 2em;
 }
+
+#content .section-content img {
+    margin: 1em auto;
+    width: 100%;
+
+}

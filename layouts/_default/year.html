@@ -25,15 +25,13 @@
             </div>
         </div>
     </section>
+    {{if .Params.registration}}
     <section id="registration">
         <div class="section-content">
-            {{if .Params.inactive}}
-            <span class="primary-button inactive">Kapacita obsazena</span>
-            {{else}}
-                <a href="{{.Params.registration}}" class="primary-button">Registrace</a>
-            {{end}}
+            <a href="{{.Params.registration}}" class="primary-button">Registrace</a>
         </div>
     </section>
+    {{end}}
     <section id="content">
         {{if .Params.info}}
             <div class="section-content" style="flex-direction: column; justify-content: flex-start; gap:0">
