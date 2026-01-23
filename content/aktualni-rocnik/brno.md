@@ -20,25 +20,25 @@ info: true
 ## Pátek 23. 1.:
 - 14:15 - 14:50 - Příjezd a registrace týmů na místě
 - 15:00 - 16:00 - Oficiální zahájení akce
-- 17:30 - úvod do Mission Zero a Mission Space Lab (seminář programování a kritéria hodnocení)
+- 17:30 - Úvod do Mission Zero a Mission Space Lab (seminář programování a kritéria hodnocení)
 - 16:00 - 18:00 - První blok kutění týmů ve svých učebnách s pomocí mentorů
 - 18:00 - Večeře
 - 19:00 - 22:00 - Druhý blok kutění týmů ve svých učebnách s pomocí mentorů
-- 22:00 - 7:30 - kutění týmů v nočním režimu s pomocí mentorů
+- 22:00 - 8:00 - kutění týmů v nočním režimu s pomocí mentorů
 
 <br><br>
 
 ## Sobota 24. 1.:
-- 7:30 - 8:30 - Snídaně
+- 8:00 - 8:30 - Snídaně (u hlavního vchodu do budovy)
 - 8:30 - 10:20 - Třetí blok kutění týmů ve svých učebnách s pomocí mentorů
 - 9:20 - DEADLINE ODEVZDÁNÍ PREZENTACÍ MLADŠÍ
 - 9:20 - 9:40 - Úklid tříd - mladší
 - 10:00 - 11:00 - Hodnocené prezentace mladších týmů
 - 10:20 - DEADLINE ODEVZDÁNÍ PREZENTACÍ STARŠÍ
 - 10:20 - 10:50 - Úklid tříd - starší
-- 11:00 - Oběd
-- 11:25 - 11:40 - Přesun na hvězdárnu na prezentace starších týmů
-- 11:40 - 13:40 - Hodnocené prezentace starších týmů
+- 10:50 - 11:20 - Oběd
+- 11:30 - 11:50 - Přesun na hvězdárnu na prezentace starších týmů
+- 11:50 - 13:40 - Hodnocené prezentace starších týmů
 - 14:00 - 14:30 - Vyhlášení vítězů
 - 14:30 - 15:30 - Návrat do školy pro věci, kontrola úklidu tříd, konec
 
