@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon Pardubice 2024 2"
+title: "Astro Pi Hackathon Pardubice 2024 2"
 layout: year
 headerPhoto: /imgs/past/brno22/header.jpg
 contentPhoto: /imgs/gallery/brno23/9.webp

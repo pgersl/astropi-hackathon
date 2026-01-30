@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon Frýdek-Místek 2025"
+title: "Astro Pi Hackathon Frýdek-Místek 2025"
 layout: year
 headerPhoto: /imgs/past/brno23/header.jpg
 contentPhoto: /imgs/gallery/brno23/9.webp

@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon Klatovy 2025"
+title: "Astro Pi Hackathon Klatovy 2025"
 layout: year
 headerPhoto: /imgs/past/brno24/header.jpg
 contentPhoto: /imgs/gallery/brno24/9.webp
