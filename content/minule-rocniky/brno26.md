@@ -3,7 +3,7 @@ title: "Astro Pi Hackathon Brno 2026"
 layout: past
 gallery: brno26
 format: .webp
-headerPhoto: /imgs/past/brno26/header.jpg
+headerPhoto: /imgs/past/brno26/header.webp
 reportPhoto: report.webp
 winnerOldPhoto: winner-old.webp
 winnerOldName: "J3D"

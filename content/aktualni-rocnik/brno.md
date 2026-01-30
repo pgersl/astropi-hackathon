@@ -1,7 +1,7 @@
 ---
 title: "Astro Pi Hackathon Brno 2026"
 layout: year
-headerPhoto: /imgs/past/brno26/header.jpg
+headerPhoto: /imgs/past/brno26/header.webp
 contentPhoto: /imgs/gallery/brno26/54.webp
 inactive: false
 competitors: 2 – 6 členné týmy od 12 do 19 let
