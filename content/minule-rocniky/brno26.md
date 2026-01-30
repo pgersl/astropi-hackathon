@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon Brno 2026"
+title: "Astro Pi Hackathon Brno 2026"
 layout: past
 gallery: brno26
 format: .webp

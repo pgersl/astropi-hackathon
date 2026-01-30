@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon Praha 2022"
+title: "Astro Pi Hackathon Praha 2022"
 layout: past
 gallery: praha22
 format: .JPEG

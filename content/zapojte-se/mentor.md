@@ -6,7 +6,7 @@ headerPhoto: /imgs/base/support.jpg
 ##### Potřebujeme vás
 # Proč se stát mentorem?
 
-Mentoři jsou esenciální součást AstroPi Hackathonů, bez nich se hackathon nedá pořádat. Úkolem mentora je být k ruce všem týmům na hackathonu a poradit jim pokud se zaseknou nebo narazí na problém. Jsou to právě mentoři, kteří plní ten zásadní úkol hackathonu a to je pomoci s přípravou na mezinárodní AstroPi Challenge tak, aby ji mohli úspěšně dokončit.
+Mentoři jsou esenciální součást Astro Pi Hackathonů, bez nich se hackathon nedá pořádat. Úkolem mentora je být k ruce všem týmům na hackathonu a poradit jim pokud se zaseknou nebo narazí na problém. Jsou to právě mentoři, kteří plní ten zásadní úkol hackathonu a to je pomoci s přípravou na mezinárodní Astro Pi Challenge tak, aby ji mohli úspěšně dokončit.
 
 ##### Je to pro vás?
 # Koho hledáme?
@@ -16,7 +16,7 @@ Mentorem může být kdokoliv se zápalem pro vesmír, programování nebo vědu
 ##### Práce na 2 dny
 # Jak to funguje?
 
-AstroPi Hackathon trvá 24 hodin během dvou dnů. Stačí se s námi dopředu domluvit, neřešíme žádné pohovory. Během akce mentoři obcházejí jednotlivé týmy a pomáhají, kde je třeba. Pro mentory zajišťujeme také stravování i drobné občerstvení navíc.
+Astro Pi Hackathon trvá 24 hodin během dvou dnů. Stačí se s námi dopředu domluvit, neřešíme žádné pohovory. Během akce mentoři obcházejí jednotlivé týmy a pomáhají, kde je třeba. Pro mentory zajišťujeme také stravování i drobné občerstvení navíc.
 
 {{< your-contact 
 name="Roman Otych" 

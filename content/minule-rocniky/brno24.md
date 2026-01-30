@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon Brno 2024"
+title: "Astro Pi Hackathon Brno 2024"
 layout: past
 gallery: brno24
 format: .webp
@@ -18,6 +18,6 @@ partners: [honeywell.png, spacemanic.png, sab.png, kentico.png, ohb.png, jic.png
 ##### To nejdůležitější
 # Krátká zpráva z akce
 
-V pátek 13. prosince hostilo Cyrilometodějské gymnázium Brno třetí ročník AstroPi Hackathonu, který byl rekordní svou účastí nejen v Brně, ale v celé České republice: 15 týmů a téměř 70 účastníků. Středoškoláci za podpory mentorů programovali mikropočítače RaspberryPi a měřili rychlost ISS.
+V pátek 13. prosince hostilo Cyrilometodějské gymnázium Brno třetí ročník Astro Pi Hackathonu, který byl rekordní svou účastí nejen v Brně, ale v celé České republice: 15 týmů a téměř 70 účastníků. Středoškoláci za podpory mentorů programovali mikropočítače Raspberry Pi a měřili rychlost ISS.
 
 V tomto nelehkém úkolu jim byli po celou dobu Hackathonu oporou odborní mentoři. S jejich pomocí nakonec všechny týmy prezentovali svou práci, na základě níž porotci vybrali 3 vítězné týmy v mladší a starší kategorii.

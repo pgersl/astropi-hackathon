@@ -7,7 +7,7 @@ headerPhoto: /imgs/base/support.jpg
 ##### Staňte se organizátorem
 # Proč vás potřebujeme?
 
-Jsme banda nadšenců do vesmíru, fyziky a programování. Nejen AstroPi Hackathonem se snažíme zvyšovat povědomí o různých soutěžích, studentských příležitostech, vědě a taky o českém vesmírném rybníčku. Pokoušíme se tak jít příkladem další generaci. Chceme v mladých nadšencích podporovat zájem o vědecké a technické obory a připravovat je na budoucí karéru.
+Jsme banda nadšenců do vesmíru, fyziky a programování. Nejen Astro Pi Hackathonem se snažíme zvyšovat povědomí o různých soutěžích, studentských příležitostech, vědě a taky o českém vesmírném rybníčku. Pokoušíme se tak jít příkladem další generaci. Chceme v mladých nadšencích podporovat zájem o vědecké a technické obory a připravovat je na budoucí karéru.
 
 Problém je, že podstatná část z nás je teprve na střední a pravděpodobně nebudeme schopni v budoucnosti v organizaci hackathonů pokračovat. Hledáme tak svoje nástupce, kteří budou na hackathonech a třeba i na něčem dalším pracovat dál.
 

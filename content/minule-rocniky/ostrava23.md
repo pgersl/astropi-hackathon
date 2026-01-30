@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon Ostrava 2023"
+title: "Astro Pi Hackathon Ostrava 2023"
 layout: past
 gallery: ostrava23
 format: .webp

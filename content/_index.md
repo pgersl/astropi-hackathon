@@ -1,5 +1,5 @@
 ---
-title: "AstroPi Hackathon"
+title: "Astro Pi Hackathon"
 layout: home
 type: home
 ---
