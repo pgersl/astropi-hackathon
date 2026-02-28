@@ -1,10 +1,10 @@
 baseURL = 'https://astropi-hackathon.org/'
 languageCode = 'en-US'
-title = 'AstroPi Hackathon'
+title = 'Astro Pi Hackathon'
 uglyURLs = "false"
 enableEmoji = "true"
 [params]
-    description = "Oficiální stránky AstroPi Hackathonu"
+    description = "Oficiální stránky Astro Pi Hackathonu"
 [markup.goldmark.renderer]
     unsafe = "true"
 [menus]

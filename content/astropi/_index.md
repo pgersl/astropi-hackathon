@@ -13,10 +13,6 @@ Součástí mise *Principia* (2015 - 2016) britského ESA astronauta Tima Peakea
 
 {{< figure src="https://images.ctfassets.net/yft5xyng9e7d/3YUUQti0NtS32qqBSWE1Wu/e9e04c4b359f188c8b1323e13d0b1049/tim_peake-cf95d5fdbd8b45a8028d0afa02d346332f2cfdc86dba0655d1bffa65ae1dac07b18d7d8e8406bac5df19eea0adcc9bc903c428f5539150ba72.jpg?h=900&w=1200" cap="Zdroj: ESA" >}}
 
-# Dopad
-
-V minulém roce se soutěží v rámci projektu Astro Pi účastnilo přes 26 000 mladých lidí z 28 členských zemí ESA, z nich 43% dívek. Projekt Astro Pi zvyšuje zájem o STEM nejen u mladých, ale také v médiích.
-
 # Kdo spravuje projekt Astro Pi?
 
 **ESA Education** je program ESA, který užívá úžasných nových poznatků získaných díky unikátnímu Evropskému vesmírnému programu pro benefit mladé generace - od utlého věku po brzkou profesionální úroveň, a pro růst společnosti jako celku.
