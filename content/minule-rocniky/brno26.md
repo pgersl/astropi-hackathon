@@ -10,7 +10,7 @@ winnerOldName: "J3D"
 winnerYoungPhoto: winner-young.webp
 winnerYoungName: "Evolve"
 fullReport: full-report-brno26.pdf
-organizers: [cmgp-full.png, esero-full.png]
+organizers: [cmgp-full.png, esero.png]
 mainPartners: []
 partners: [vesmir.png, ohb.png, sab.png, vida.png, redhat.svg]
 ---

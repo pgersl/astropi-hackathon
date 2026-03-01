@@ -10,7 +10,7 @@ winnerOldName: "Magion"
 winnerYoungPhoto: winner-young.webp
 winnerYoungName: "Krenka"
 fullReport: full-report-brno24.pdf
-organizers: [cmgp-full.png, esero-full.png]
+organizers: [cmgp-full.png, esero.png]
 mainPartners: [vesmir.png, hvezdarna.png, redhat.svg, mattoni.png, advantech.png, mcbs.png]
 partners: [honeywell.png, spacemanic.png, sab.png, kentico.png, ohb.png, jic.png, hikade.png, planetum-full.png]
 ---
