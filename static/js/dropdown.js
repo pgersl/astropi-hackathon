@@ -31,3 +31,26 @@ dropdownLinks.forEach(dropdownLink => {
         }
     });
 });
+
+document.querySelectorAll('.toggle-dates').forEach(button => {
+    button.addEventListener('click', function () {
+        const location = this.closest('.location')
+        const box = location.querySelector('.location-dates-collapsible')
+
+        const isOpen = box.classList.contains('open')
+
+        // zavřít všechny ostatní (volitelné, ale doporučeno)
+        document.querySelectorAll('.location-dates-collapsible').forEach(el => {
+            el.classList.remove('open')
+        })
+
+        document.querySelectorAll('.toggle-dates').forEach(btn => {
+            btn.classList.remove('active')
+        })
+
+        if (!isOpen) {
+            box.classList.add('open')
+            this.classList.add('active')
+        }
+    })
+})

@@ -307,6 +307,57 @@ nav {
     color: var(--light-blue1);
 }
 
+.location-dates-collapsible {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.location-dates-collapsible.open {
+    display: block;
+}
+
+.toggle-dates {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 14px;
+    border-radius: 999px;
+
+    background: #111;
+    color: #fff;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    border: none;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+/* Hover efekt */
+.toggle-dates:hover {
+    background: #333;
+    transform: translateY(-1px);
+}
+
+/* Active (kliknuté) */
+.toggle-dates.active {
+    background: #555;
+}
+
+/* Šipka */
+.toggle-dates .arrow {
+    transition: transform 0.2s ease;
+}
+
+/* Otočení šipky při otevření */
+.toggle-dates.active .arrow {
+    transform: rotate(180deg);
+}
 /* MAIN */
 
 #call-to-action-section {
@@ -412,6 +463,10 @@ nav {
 #plk {
     bottom: 20%;
     left: 15%;
+}
+#ok {
+    bottom: 35%;
+    left: 70%;
 }
 
 /* FOOTER */

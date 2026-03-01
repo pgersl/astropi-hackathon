@@ -16,22 +16,21 @@ mapRegions.forEach(mapRegion => {
 
     // Show the tooltip on click
     mapRegion.addEventListener('click', (event) => {
-        event.stopPropagation() // Prevent the click from propagating to the document
+    event.preventDefault() 
+    event.stopPropagation()
 
-        // Hide the currently active tooltip if it's not the same as the clicked one
-        if (activeTooltip && activeTooltip !== regionTooltip) {
-            activeTooltip.style.display = 'none'
-        }
+    if (activeTooltip && activeTooltip !== regionTooltip) {
+        activeTooltip.style.display = 'none'
+    }
 
-        // Toggle the visibility of the clicked tooltip
-        if (regionTooltip.style.display === 'block') {
-            regionTooltip.style.display = 'none'
-            activeTooltip = null
-        } else {
-            regionTooltip.style.display = 'block'
-            activeTooltip = regionTooltip
-        }
-    })
+    if (regionTooltip.style.display === 'block') {
+        regionTooltip.style.display = 'none'
+        activeTooltip = null
+    } else {
+        regionTooltip.style.display = 'block'
+        activeTooltip = regionTooltip
+    }
+})
 })
 
 // Hide the tooltip when clicking anywhere else
